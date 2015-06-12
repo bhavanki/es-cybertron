@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- based on Hissho -->
+  <Faction Name="Decepticon" Standard="true" Author="Computronus">
+    <Gui>
+      <Title>%FactionNameConTitle</Title>
+      <Description>%FactionConDescription</Description>
+      <Icon Small="Gui/CustomFactions/Megs32" Large="Gui/CustomFactions/Megs128" Wide="Gui/CustomFactions/Decepticons"/>
+    </Gui>
+    <Affinity>AffinityDecepticon</Affinity>
+    <AffinityMapping>AffinityMappingHissho</AffinityMapping>
+    <!--  [Tech1:Kinetic2]     [Evil]       [Ano: Huygens Rings]       Revenge+2              Snipers+3           Deadly weapons+3      Mast.destruction+2  Death.dishonor+2    Scientists-2 -->
+    <Traits>TraitTechG01;TraitAlignmentEvil;TraitAnomaly06Norm1;TraitDefense04Norm2;TraitSpaceBattle02Norm3;TraitSpaceBattle03Norm3;TraitBuilding03Norm2;TraitHero04Norm2;TraitScience01Alt2</Traits>
+  </Faction>
+
+</Datatable>

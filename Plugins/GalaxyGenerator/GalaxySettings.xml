@@ -568,8 +568,97 @@
         </OverridePlanetsInSystem>
       </HomeStar>
     </Trait>
-    
+
+    <Trait Name="AffinityAutobot">
+      <HomePlanet>
+        <OverrideType Probability="1.0">
+          <Type Name="PlanetTypeBarren" Weight="1"/>
+        </OverrideType>
+        <OverrideSize Probability="1.0">
+          <Size Name="PlanetSizeLarge" Weight="1"/>
+        </OverrideSize>
+        <InhibitAnomalies>
+          <All/>
+        </InhibitAnomalies>
+      </HomePlanet>
+      <OtherPlanets>
+        <OverrideType Probability="1">
+          <Type Name="PlanetTypeArid" Weight="1"/>
+          <Type Name="PlanetTypeTundra" Weight="3"/>
+          <Type Name="PlanetTypeDesert" Weight="3"/>
+          <Type Name="PlanetTypeArctic" Weight="3"/>
+          <Type Name="PlanetTypeBarren" Weight="1"/>
+          <Type Name="PlanetTypeAsteroids" Weight="3"/>
+          <Type Name="PlanetTypeLava" Weight="3"/>
+          <Type Name="PlanetTypeGasHydrogen" Weight="1"/>
+          <Type Name="PlanetTypeGasHelium" Weight="1"/>
+          <Type Name="PlanetTypeGasMethane" Weight="1"/>
+        </OverrideType>
+        <OverrideSize Probability="0">
+          <Size Name="PlanetSizeSmall" Weight="1"/>
+          <Size Name="PlanetSizeMedium" Weight="1"/>
+          <Size Name="PlanetSizeLarge" Weight="1"/>
+        </OverrideSize>
+        <InhibitAnomalies>
+          <All/>
+        </InhibitAnomalies>
+      </OtherPlanets>
+      <HomeStar>
+        <OverridePlanetsInSystem>
+          <Quantity Name="3" Weight="3"/>
+          <Quantity Name="4" Weight="3"/>
+          <Quantity Name="5" Weight="1"/>
+          <Quantity Name="6" Weight="1"/>
+        </OverridePlanetsInSystem>
+      </HomeStar>
+    </Trait>
+
+    <Trait Name="AffinityDecepticon">
+      <HomePlanet>
+        <OverrideType Probability="1.0">
+          <Type Name="PlanetTypeLava" Weight="1"/>
+        </OverrideType>
+        <OverrideSize Probability="1.0">
+          <Size Name="PlanetSizeMedium" Weight="1"/>
+        </OverrideSize>
+        <InhibitAnomalies>
+          <All/>
+        </InhibitAnomalies>
+      </HomePlanet>
+      <OtherPlanets>
+        <OverrideType Probability="1">
+          <Type Name="PlanetTypeArid" Weight="3"/>
+          <Type Name="PlanetTypeTundra" Weight="1"/>
+          <Type Name="PlanetTypeDesert" Weight="3"/>
+          <Type Name="PlanetTypeArctic" Weight="3"/>
+          <Type Name="PlanetTypeBarren" Weight="3"/>
+          <Type Name="PlanetTypeAsteroids" Weight="3"/>
+          <Type Name="PlanetTypeLava" Weight="1"/>
+          <Type Name="PlanetTypeGasHydrogen" Weight="1"/>
+          <Type Name="PlanetTypeGasHelium" Weight="1"/>
+          <Type Name="PlanetTypeGasMethane" Weight="1"/>
+        </OverrideType>
+        <OverrideSize Probability="0">
+          <Size Name="PlanetSizeSmall" Weight="1"/>
+          <Size Name="PlanetSizeMedium" Weight="1"/>
+          <Size Name="PlanetSizeLarge" Weight="1"/>
+        </OverrideSize>
+        <InhibitAnomalies>
+          <All/>
+        </InhibitAnomalies>
+      </OtherPlanets>
+      <HomeStar>
+        <OverridePlanetsInSystem>
+          <Quantity Name="3" Weight="3"/>
+          <Quantity Name="4" Weight="3"/>
+          <Quantity Name="5" Weight="1"/>
+          <Quantity Name="6" Weight="1"/>
+        </OverridePlanetsInSystem>
+      </HomeStar>
+    </Trait>
+
   </HomeGeneration>
+
 
   <!--========GENERATION OPTIONS====== -->
   <BaseOptions>

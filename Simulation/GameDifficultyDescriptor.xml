@@ -13,7 +13,9 @@
       
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulation"  Value="3" OperationType="Soustraction" Path="ClassEmpire/ClassStarSystem" TooltipVisibility="false"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1" OperationType="Multiplication" Path="ClassEmpire,AffinityAmoeba/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1" OperationType="Multiplication" Path="ClassEmpire,AffinityAutobot/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1" OperationType="Multiplication" Path="ClassEmpire,AffinityAutomaton/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1" OperationType="Multiplication" Path="ClassEmpire,AffinityDecepticon/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1" OperationType="Multiplication" Path="ClassEmpire,AffinityEmperor/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1" OperationType="Multiplication" Path="ClassEmpire,AffinityHissho/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1" OperationType="Multiplication" Path="ClassEmpire,AffinityHoratio/ClassStarSystem"/>
@@ -26,7 +28,9 @@
       
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationStarSystemCount"  Value="2" OperationType="Soustraction" Path="ClassEmpire" TooltipVisibility="false"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="4" OperationType="Multiplication" Path="ClassEmpire,AffinityAmoeba/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="4" OperationType="Multiplication" Path="ClassEmpire,AffinityAutobot/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="4" OperationType="Multiplication" Path="ClassEmpire,AffinityAutomaton/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="4" OperationType="Multiplication" Path="ClassEmpire,AffinityDecepticon/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="4" OperationType="Multiplication" Path="ClassEmpire,AffinityEmperor/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="4" OperationType="Multiplication" Path="ClassEmpire,AffinityHissho/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="4" OperationType="Multiplication" Path="ClassEmpire,AffinityHoratio/ClassStarSystem"/>
@@ -86,7 +90,9 @@
     <SimulationObjectPropertyModifierDescriptors>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulation"  Value="3" OperationType="Soustraction" Path="ClassEmpire/ClassStarSystem" TooltipVisibility="false"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.1" OperationType="Multiplication" Path="ClassEmpire,AffinityAmoeba/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.1" OperationType="Multiplication" Path="ClassEmpire,AffinityAutobot/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.1" OperationType="Multiplication" Path="ClassEmpire,AffinityAutomaton/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.1" OperationType="Multiplication" Path="ClassEmpire,AffinityDecepticon/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.1" OperationType="Multiplication" Path="ClassEmpire,AffinityEmperor/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.1" OperationType="Multiplication" Path="ClassEmpire,AffinityHissho/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.1" OperationType="Multiplication" Path="ClassEmpire,AffinityHoratio/ClassStarSystem"/>
@@ -99,7 +105,9 @@
 
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationStarSystemCount"  Value="2" OperationType="Soustraction" Path="ClassEmpire" TooltipVisibility="false"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="4.5" OperationType="Multiplication" Path="ClassEmpire,AffinityAmoeba/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="4.5" OperationType="Multiplication" Path="ClassEmpire,AffinityAutobot/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="4.5" OperationType="Multiplication" Path="ClassEmpire,AffinityAutomaton/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="4.5" OperationType="Multiplication" Path="ClassEmpire,AffinityDecepticon/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="4.5" OperationType="Multiplication" Path="ClassEmpire,AffinityEmperor/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="4.5" OperationType="Multiplication" Path="ClassEmpire,AffinityHissho/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="4.5" OperationType="Multiplication" Path="ClassEmpire,AffinityHoratio/ClassStarSystem"/>
@@ -127,7 +135,9 @@
     <SimulationObjectPropertyModifierDescriptors>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulation"  Value="3" OperationType="Soustraction" Path="ClassEmpire/ClassStarSystem" TooltipVisibility="false"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.2" OperationType="Multiplication" Path="ClassEmpire,AffinityAmoeba/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.2" OperationType="Multiplication" Path="ClassEmpire,AffinityAutobot/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.2" OperationType="Multiplication" Path="ClassEmpire,AffinityAutomaton/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.2" OperationType="Multiplication" Path="ClassEmpire,AffinityDecepticon/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.2" OperationType="Multiplication" Path="ClassEmpire,AffinityEmperor/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.2" OperationType="Multiplication" Path="ClassEmpire,AffinityHissho/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.2" OperationType="Multiplication" Path="ClassEmpire,AffinityHoratio/ClassStarSystem"/>
@@ -140,7 +150,9 @@
 
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationStarSystemCount"  Value="2" OperationType="Soustraction" Path="ClassEmpire" TooltipVisibility="false"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="5" OperationType="Multiplication" Path="ClassEmpire,AffinityAmoeba/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="5" OperationType="Multiplication" Path="ClassEmpire,AffinityAutobot/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="5" OperationType="Multiplication" Path="ClassEmpire,AffinityAutomaton/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="5" OperationType="Multiplication" Path="ClassEmpire,AffinityDecepticon/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="5" OperationType="Multiplication" Path="ClassEmpire,AffinityEmperor/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="5" OperationType="Multiplication" Path="ClassEmpire,AffinityHissho/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="5" OperationType="Multiplication" Path="ClassEmpire,AffinityHoratio/ClassStarSystem"/>
@@ -169,7 +181,9 @@
     <SimulationObjectPropertyModifierDescriptors>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulation"  Value="3" OperationType="Soustraction" Path="ClassEmpire/ClassStarSystem" TooltipVisibility="false"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.3" OperationType="Multiplication" Path="ClassEmpire,AffinityAmoeba/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.3" OperationType="Multiplication" Path="ClassEmpire,AffinityAutobot/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.3" OperationType="Multiplication" Path="ClassEmpire,AffinityAutomaton/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.3" OperationType="Multiplication" Path="ClassEmpire,AffinityDecepticon/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.3" OperationType="Multiplication" Path="ClassEmpire,AffinityEmperor/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.3" OperationType="Multiplication" Path="ClassEmpire,AffinityHissho/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.3" OperationType="Multiplication" Path="ClassEmpire,AffinityHoratio/ClassStarSystem"/>
@@ -182,7 +196,9 @@
 
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationStarSystemCount"  Value="2" OperationType="Soustraction" Path="ClassEmpire" TooltipVisibility="false"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="5.5" OperationType="Multiplication" Path="ClassEmpire,AffinityAmoeba/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="5.5" OperationType="Multiplication" Path="ClassEmpire,AffinityAutobot/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="5.5" OperationType="Multiplication" Path="ClassEmpire,AffinityAutomaton/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="5.5" OperationType="Multiplication" Path="ClassEmpire,AffinityDecepticon/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="5.5" OperationType="Multiplication" Path="ClassEmpire,AffinityEmperor/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="5.5" OperationType="Multiplication" Path="ClassEmpire,AffinityHissho/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="5.5" OperationType="Multiplication" Path="ClassEmpire,AffinityHoratio/ClassStarSystem"/>
@@ -210,7 +226,9 @@
     <SimulationObjectPropertyModifierDescriptors>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulation"  Value="3" OperationType="Soustraction" Path="ClassEmpire/ClassStarSystem" TooltipVisibility="false"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.4" OperationType="Multiplication" Path="ClassEmpire,AffinityAmoeba/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.4" OperationType="Multiplication" Path="ClassEmpire,AffinityAutobot/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.4" OperationType="Multiplication" Path="ClassEmpire,AffinityAutomaton/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.4" OperationType="Multiplication" Path="ClassEmpire,AffinityDecepticon/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.4" OperationType="Multiplication" Path="ClassEmpire,AffinityEmperor/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.4" OperationType="Multiplication" Path="ClassEmpire,AffinityHissho/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.4" OperationType="Multiplication" Path="ClassEmpire,AffinityHoratio/ClassStarSystem"/>
@@ -223,7 +241,9 @@
 
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationStarSystemCount"  Value="2" OperationType="Soustraction" Path="ClassEmpire" TooltipVisibility="false"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="6" OperationType="Multiplication" Path="ClassEmpire,AffinityAmoeba/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="6" OperationType="Multiplication" Path="ClassEmpire,AffinityAutobot/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="6" OperationType="Multiplication" Path="ClassEmpire,AffinityAutomaton/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="6" OperationType="Multiplication" Path="ClassEmpire,AffinityDecepticon/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="6" OperationType="Multiplication" Path="ClassEmpire,AffinityEmperor/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="6" OperationType="Multiplication" Path="ClassEmpire,AffinityHissho/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="6" OperationType="Multiplication" Path="ClassEmpire,AffinityHoratio/ClassStarSystem"/>
@@ -251,7 +271,9 @@
     <SimulationObjectPropertyModifierDescriptors>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulation"  Value="3" OperationType="Soustraction" Path="ClassEmpire/ClassStarSystem" TooltipVisibility="false"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.5" OperationType="Multiplication" Path="ClassEmpire,AffinityAmoeba/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.5" OperationType="Multiplication" Path="ClassEmpire,AffinityAutobot/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.5" OperationType="Multiplication" Path="ClassEmpire,AffinityAutomaton/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.5" OperationType="Multiplication" Path="ClassEmpire,AffinityDecepticon/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.5" OperationType="Multiplication" Path="ClassEmpire,AffinityEmperor/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.5" OperationType="Multiplication" Path="ClassEmpire,AffinityHissho/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.5" OperationType="Multiplication" Path="ClassEmpire,AffinityHoratio/ClassStarSystem"/>
@@ -264,7 +286,9 @@
 
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationStarSystemCount"  Value="2" OperationType="Soustraction" Path="ClassEmpire" TooltipVisibility="false"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="6.5" OperationType="Multiplication" Path="ClassEmpire,AffinityAmoeba/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="6.5" OperationType="Multiplication" Path="ClassEmpire,AffinityAutobot/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="6.5" OperationType="Multiplication" Path="ClassEmpire,AffinityAutomaton/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="6.5" OperationType="Multiplication" Path="ClassEmpire,AffinityDecepticon/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="6.5" OperationType="Multiplication" Path="ClassEmpire,AffinityEmperor/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="6.5" OperationType="Multiplication" Path="ClassEmpire,AffinityHissho/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="6.5" OperationType="Multiplication" Path="ClassEmpire,AffinityHoratio/ClassStarSystem"/>
@@ -292,7 +316,9 @@
     <SimulationObjectPropertyModifierDescriptors>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulation"  Value="3" OperationType="Soustraction" Path="ClassEmpire/ClassStarSystem" TooltipVisibility="false"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.8" OperationType="Multiplication" Path="ClassEmpire,AffinityAmoeba/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.8" OperationType="Multiplication" Path="ClassEmpire,AffinityAutobot/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.8" OperationType="Multiplication" Path="ClassEmpire,AffinityAutomaton/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.8" OperationType="Multiplication" Path="ClassEmpire,AffinityDecepticon/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.8" OperationType="Multiplication" Path="ClassEmpire,AffinityEmperor/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.8" OperationType="Multiplication" Path="ClassEmpire,AffinityHissho/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverPopulationApproval"  Value="1.8" OperationType="Multiplication" Path="ClassEmpire,AffinityHoratio/ClassStarSystem"/>
@@ -306,7 +332,9 @@
 
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationStarSystemCount"  Value="2" OperationType="Soustraction" Path="ClassEmpire" TooltipVisibility="false"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="7" OperationType="Multiplication" Path="ClassEmpire,AffinityAmoeba/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="7" OperationType="Multiplication" Path="ClassEmpire,AffinityAutobot/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="7" OperationType="Multiplication" Path="ClassEmpire,AffinityAutomaton/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="7" OperationType="Multiplication" Path="ClassEmpire,AffinityDecepticon/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="7" OperationType="Multiplication" Path="ClassEmpire,AffinityEmperor/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="7" OperationType="Multiplication" Path="ClassEmpire,AffinityHissho/ClassStarSystem"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="OverColonizationApproval"  Value="7" OperationType="Multiplication" Path="ClassEmpire,AffinityHoratio/ClassStarSystem"/>

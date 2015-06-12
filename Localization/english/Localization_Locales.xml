@@ -695,6 +695,27 @@ The Automatons were created by a long dead civilization known as the Reyans, who
 The clockwork creations of the Reyans developed a simple society of their own, until one day a large Endless ship crashed into the planet and spread Dust across its surface. The Dust modified the machines, enhancing their abilities and over time even giving them sentience. In only a few weeks the clockwork machines had evolved, gaining a new purpose in their existence. They came to call themselves the Automatons, and with the newly gained freedom of Dust they began learning...and advancing.
  
 The Automaton civilization remained on their planet, learning to live in a symbiotic relationship with nature as the planet healed. They used the knowledge of their creators and their new Dust engines to produce massive floating ships on which they lived, thus protecting the recovering ecosystem on the planet. Over the course of centuries the planet healed and the Automatons learned to live with and love nature while developing advanced industrial capacity and production within the hulls of their floating ships -- which had also grown over time. Calculating that their Dust supply would run out and their civilization would die, the Automatons excavated the ruins of the Endless ship and began developing their own vehicles for space flight...</LocalizationPair>
+  <LocalizationPair Name="%FactionNameBotTitle">AUTOBOTS</LocalizationPair>
+  <LocalizationPair Name="%FactionNameAutobotDescription">A valiant, hardworking, and honorable race of mechanical beings from the planet Cybertron.</LocalizationPair>
+  <LocalizationPair Name="%FactionBotDescription">Home Planet Type: Barren
+Diplomatic Alignment: Good
+Gameplay: Peaceful and Isolationist
+Main Victory Type: Economic/Diplomatic
+ 
+Descended from a labor class of autonomous cybernetic organisms, the Autobots retain a sense of honor, a strong work ethic, and a dedication to order and justice. They have battled for millennia with the Decepticons and have become hardened warriors through the process, yet still with a sense of optimism and hope.
+ 
+The Autobots, led by the heroic Optimus Prime, have found themselves stranded on a new, mysterious planet, while attempting to stop an experiment being conducted by the calculating and power-hungry Decepticon Shockwave. They are unsure how they arrived, but they will seek out how they might return to their home planet and resume their struggle.</LocalizationPair>
+  <LocalizationPair Name="%FactionNameConTitle">DECEPTICONS</LocalizationPair>
+  <LocalizationPair Name="%FactionNameDecepticonDescription">Ruthless, warlike mechanical beings from the planet Cybertron, bent on universal conquest.</LocalizationPair>
+  <LocalizationPair Name="%FactionConDescription">Home Planet Type: Lava
+Diplomatic Alignment: Evil
+Gameplay: Conquest, Glory
+Main Victory Type: Military/Population
+ 
+The Decepticons are led by the ruthless and charismatic Megatron, a former miner turned gladiator turned rebel turned conqueror. While the Decepticon movement originally spawned from a repressed class of autonomous, cybernetic beings in order to seek justice and equality, their cause eventually turned to the destruction of their enemies and the spread of their form of life, and rule, across the universe.
+ 
+Shockwave, a calculating and dangerous Decepticon, was running an experiment in quantum reality manipulation when a host of Autobots, sworn enemies of the Decepticons, invaded in an attempt to stop the experiment. Damage to the quantum manipulation equipment appears to have transported the Decepticons to a new and unforgiving planet. After gathering themselves together, they have quickly resolved to explore their new environment, exploit it, and resume their dominating ways.</LocalizationPair>
+
   <LocalizationPair Name="%FactionNameZCheat1Title">[TEST] Complete Cheat</LocalizationPair>
   <LocalizationPair Name="%FactionNameZCheat1Description">All FIMS maxed, Tech Tree maxed</LocalizationPair>
   <LocalizationPair Name="%FactionZCheat1Description">All FIMS maxed, Tech Tree maxed</LocalizationPair>
@@ -1006,6 +1027,10 @@ The Automaton civilization remained on their planet, learning to live in a symbi
   <LocalizationPair Name="%AffinityPiratesDescription">Provides a basic set of faction traits similar to the Pirates (Military, Smells Bad)</LocalizationPair>
   <LocalizationPair Name="%AffinityAutomatonTitle">Automatons Affinity</LocalizationPair>
   <LocalizationPair Name="%AffinityAutomatonDescription">Provides a basic set of faction traits similar to the Automatons</LocalizationPair>
+  <LocalizationPair Name="%AffinityAutobotTitle">Autobot Affinity</LocalizationPair>
+  <LocalizationPair Name="%AffinityAutobotDescription">Provides a basic set of faction traits similar to the Autobots</LocalizationPair>
+  <LocalizationPair Name="%AffinityDecepticonTitle">Decepticon Affinity</LocalizationPair>
+  <LocalizationPair Name="%AffinityDecepticonDescription">Provides a basic set of faction traits similar to the Decepticons</LocalizationPair>
   <LocalizationPair Name="%AffinityMappingTerranTitle">United Empire Appearance</LocalizationPair>
   <LocalizationPair Name="%AffinityMappingTerranDescription">Your custom faction will display the 2D and 3D visuals of the United Empire.</LocalizationPair>
   <LocalizationPair Name="%AffinityMappingEmperorTitle">Sheredyn Appearance</LocalizationPair>
@@ -4043,6 +4068,16 @@ PHASE</LocalizationPair>
   <LocalizationPair Name="%SuperDefenderAutomatonDesign">Advanced Caretaker</LocalizationPair>
   <LocalizationPair Name="%AdvancedDefenderAutomatonDesign">Elite Caretaker</LocalizationPair>
   <LocalizationPair Name="%ColonyShipAutomatonDesign">Workshop</LocalizationPair>
+  <LocalizationPair Name="%ScoutAutobotDesign">Scout</LocalizationPair>
+  <LocalizationPair Name="%DefenderAutobotDesign">Patroller</LocalizationPair>
+  <LocalizationPair Name="%SuperDefenderAutobotDesign">Advanced Patroller</LocalizationPair>
+  <LocalizationPair Name="%AdvancedDefenderAutobotDesign">Elite Patroller</LocalizationPair>
+  <LocalizationPair Name="%ColonyShipAutobotDesign">Ark</LocalizationPair>
+  <LocalizationPair Name="%ScoutDecepticonDesign">Lurker</LocalizationPair>
+  <LocalizationPair Name="%DefenderDecepticonDesign">Cruiser</LocalizationPair>
+  <LocalizationPair Name="%SuperDefenderDecepticonDesign">Advanced Cruiser</LocalizationPair>
+  <LocalizationPair Name="%AdvancedDefenderDecepticonDesign">Elite Cruiser</LocalizationPair>
+  <LocalizationPair Name="%ColonyShipDecepticonDesign">Sparkship</LocalizationPair>
   <LocalizationPair Name="%Dummy_SHIP" />
   <LocalizationPair Name="%FleetNoHeroDescription">No Hero is currently assigned to this fleet.</LocalizationPair>
   <LocalizationPair Name="%UnknownFleetTitle">UNKNOWN</LocalizationPair>
@@ -7151,6 +7186,12 @@ LATER</LocalizationPair>
   <LocalizationPair Name="%AffinityHisshoTooltipEffect5">INVASION BUSHIDO:</LocalizationPair>
   <LocalizationPair Name="%AffinityEmperorTooltipEffect">PREVENTS OPPONENTS FROM RETREATING</LocalizationPair>
   <LocalizationPair Name="%AffinityResistanceTooltipEffect">ABILITY TO EVACUATE A STAR SYSTEM (BONUS ON COLONIZATION FOR EACH IMPROVEMENT ON-BOARD).</LocalizationPair>
+  <LocalizationPair Name="%AffinityDecepticonTooltipEffect1">BATTLE SYNERGY:</LocalizationPair>
+  <LocalizationPair Name="%AffinityDecepticonTooltipEffect2">       • +5% WEAPON DAMAGE ON ALL FLEETS FOR EACH SPACE BATTLE WON (FOR 15 TURNS).</LocalizationPair>
+  <LocalizationPair Name="%AffinityDecepticonTooltipEffect3">CONQUERORS:</LocalizationPair>
+  <LocalizationPair Name="%AffinityDecepticonTooltipEffect4">
+       • +15% FID ON ALL SYSTEMS FOR EACH INVASION VICTORY (FOR 45 TURNS).</LocalizationPair>
+  <LocalizationPair Name="%AffinityDecepticonTooltipEffect5">THESE BONUSES CAN STACK.</LocalizationPair>
   <LocalizationPair Name="%TraitEconomy05Norm1TooltipEffect">       • THE HOME PLANET IS MINERAL RICH.</LocalizationPair>
   <LocalizationPair Name="%TraitEconomy05Norm2TooltipEffect">       • THE HOME PLANET HAS RICH SOIL.</LocalizationPair>
   <LocalizationPair Name="%TraitEconomy05Norm3TooltipEffect">       • THE HOME PLANET HAS A POSITIVE ANOMALY.</LocalizationPair>

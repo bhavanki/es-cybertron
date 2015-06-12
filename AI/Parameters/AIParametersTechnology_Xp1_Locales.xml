@@ -14,6 +14,8 @@
   <AIParametersDatatableElement ConstructibleElement="TechPlayerStartHarmony" />
   <AIParametersDatatableElement ConstructibleElement="TechPlayerStartEmperor" />
   <AIParametersDatatableElement ConstructibleElement="TechPlayerStartPirates" />
+  <AIParametersDatatableElement ConstructibleElement="TechPlayerStartAutobot" />
+  <AIParametersDatatableElement ConstructibleElement="TechPlayerStartDecepticon" />
   <AIParametersDatatableElement ConstructibleElement="TechPlayerStartFood1" />
   <AIParametersDatatableElement ConstructibleElement="TechT01">
     <AIParameter Name="Food" Value="10" />
@@ -54,6 +56,9 @@
     <AIParameter Name="Approval" Value="7" />
   </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechT41Automaton">
+    <AIParameter Name="Expand" Value="14" />
+  </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechT41Autobot">
     <AIParameter Name="Expand" Value="14" />
   </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechT42Swarm">
@@ -279,6 +284,12 @@
     <AIParameter Name="Money" Value="7" />
     <AIParameter Name="Science" Value="7" />
   </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechT37Autobot">
+    <AIParameter Name="Food" Value="7" />
+    <AIParameter Name="Industry" Value="7" />
+    <AIParameter Name="Money" Value="7" />
+    <AIParameter Name="Science" Value="7" />
+  </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechT34Harmony">
     <AIParameter Name="Food" Value="9" />
     <AIParameter Name="Industry" Value="9" />
@@ -292,6 +303,9 @@
     <AIParameter Name="Approval" Value="26" />
   </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechT45Hissho">
+    <AIParameter Name="Approval" Value="26" />
+  </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechT45Decepticon">
     <AIParameter Name="Approval" Value="26" />
   </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechT47Horatio">
@@ -513,6 +527,9 @@
   <AIParametersDatatableElement ConstructibleElement="TechE04Hissho">
     <AIParameter Name="Military" Value="12" />
   </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechE04Decepticon">
+    <AIParameter Name="Military" Value="12" />
+  </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechE04Sower">
     <AIParameter Name="Military" Value="12" />
   </AIParametersDatatableElement>
@@ -523,6 +540,9 @@
     <AIParameter Name="Military" Value="12" />
   </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechE04Automaton">
+    <AIParameter Name="Military" Value="12" />
+  </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechE04Autobot">
     <AIParameter Name="Military" Value="12" />
   </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechE04Emperor">
@@ -598,6 +618,11 @@
     <AIParameter Name="Military" Value="6" />
     <AIParameter Name="PlanetTypeLava" Value="5" />
   </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechE08Decepticon">
+    <AIParameter Name="Industry" Value="5" />
+    <AIParameter Name="Military" Value="6" />
+    <AIParameter Name="PlanetTypeLava" Value="5" />
+  </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechE08Sower">
     <AIParameter Name="Industry" Value="5" />
     <AIParameter Name="Military" Value="6" />
@@ -614,6 +639,11 @@
     <AIParameter Name="PlanetTypeLava" Value="5" />
   </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechE08Automaton">
+    <AIParameter Name="Industry" Value="5" />
+    <AIParameter Name="Military" Value="6" />
+    <AIParameter Name="PlanetTypeLava" Value="5" />
+  </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechE08Autobot">
     <AIParameter Name="Industry" Value="5" />
     <AIParameter Name="Military" Value="6" />
     <AIParameter Name="PlanetTypeLava" Value="5" />
@@ -653,6 +683,11 @@
     <AIParameter Name="Military" Value="6" />
     <AIParameter Name="PlanetTypeLava" Value="3" />
   </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechE08DecepticonWithColonizeTraitScience03">
+    <AIParameter Name="Industry" Value="4" />
+    <AIParameter Name="Military" Value="6" />
+    <AIParameter Name="PlanetTypeLava" Value="3" />
+  </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechE08SowerWithColonizeTraitScience03">
     <AIParameter Name="Industry" Value="4" />
     <AIParameter Name="Military" Value="6" />
@@ -669,6 +704,11 @@
     <AIParameter Name="PlanetTypeLava" Value="3" />
   </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechE08AutomatonWithColonizeTraitScience03">
+    <AIParameter Name="Industry" Value="4" />
+    <AIParameter Name="Military" Value="6" />
+    <AIParameter Name="PlanetTypeLava" Value="3" />
+  </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechE08AutobotWithColonizeTraitScience03">
     <AIParameter Name="Industry" Value="4" />
     <AIParameter Name="Military" Value="6" />
     <AIParameter Name="PlanetTypeLava" Value="3" />
@@ -754,6 +794,12 @@
     <AIParameter Name="Money" Value="6" />
     <AIParameter Name="Science" Value="6" />
   </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechE33Autobot">
+    <AIParameter Name="Food" Value="6" />
+    <AIParameter Name="Industry" Value="6" />
+    <AIParameter Name="Money" Value="6" />
+    <AIParameter Name="Science" Value="6" />
+  </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechE13">
     <AIParameter Name="Science" Value="8" />
     <AIParameter Name="Military" Value="8" />
@@ -783,6 +829,10 @@
     <AIParameter Name="Approval" Value="10" />
     <AIParameter Name="Military" Value="10" />
   </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechE14Decepticon">
+    <AIParameter Name="Approval" Value="10" />
+    <AIParameter Name="Military" Value="10" />
+  </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechE14Sower">
     <AIParameter Name="Approval" Value="10" />
     <AIParameter Name="Military" Value="10" />
@@ -799,6 +849,10 @@
     <AIParameter Name="Approval" Value="10" />
     <AIParameter Name="Military" Value="10" />
   </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechE14Autobot">
+    <AIParameter Name="Approval" Value="10" />
+    <AIParameter Name="Military" Value="10" />
+  </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechE14Emperor">
     <AIParameter Name="Approval" Value="10" />
     <AIParameter Name="Military" Value="10" />
@@ -809,6 +863,13 @@
     <AIParameter Name="Military" Value="10" />
   </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechE22Automaton">
+    <AIParameter Name="Food" Value="1" />
+    <AIParameter Name="Industry" Value="1" />
+    <AIParameter Name="Money" Value="1" />
+    <AIParameter Name="Science" Value="1" />
+    <AIParameter Name="Movement" Value="16" />
+  </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechE22Autobot">
     <AIParameter Name="Food" Value="1" />
     <AIParameter Name="Industry" Value="1" />
     <AIParameter Name="Money" Value="1" />
@@ -861,6 +922,10 @@
     <AIParameter Name="Expand" Value="11" />
     <AIParameter Name="Military" Value="11" />
   </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechE16Decepticon">
+    <AIParameter Name="Expand" Value="11" />
+    <AIParameter Name="Military" Value="11" />
+  </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechE16Sower">
     <AIParameter Name="Expand" Value="11" />
     <AIParameter Name="Military" Value="11" />
@@ -875,6 +940,10 @@
     <AIParameter Name="Military" Value="11" />
   </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechE16Automaton">
+    <AIParameter Name="Expand" Value="11" />
+    <AIParameter Name="Military" Value="11" />
+  </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechE16Autobot">
     <AIParameter Name="Expand" Value="11" />
     <AIParameter Name="Military" Value="11" />
   </AIParametersDatatableElement>
@@ -893,6 +962,12 @@
     <AIParameter Name="Science" Value="6" />
   </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechE17Automaton">
+    <AIParameter Name="Food" Value="7" />
+    <AIParameter Name="Industry" Value="7" />
+    <AIParameter Name="Money" Value="7" />
+    <AIParameter Name="Science" Value="7" />
+  </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechE17Autobot">
     <AIParameter Name="Food" Value="7" />
     <AIParameter Name="Industry" Value="7" />
     <AIParameter Name="Money" Value="7" />
@@ -953,6 +1028,12 @@
     <AIParameter Name="Movement" Value="26" />
   </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechE31Automaton">
+    <AIParameter Name="Food" Value="6" />
+    <AIParameter Name="Industry" Value="6" />
+    <AIParameter Name="Money" Value="6" />
+    <AIParameter Name="Science" Value="6" />
+  </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechE31Autobot">
     <AIParameter Name="Food" Value="6" />
     <AIParameter Name="Industry" Value="6" />
     <AIParameter Name="Money" Value="6" />
@@ -1071,6 +1152,9 @@
   <AIParametersDatatableElement ConstructibleElement="TechA37Automaton">
     <AIParameter Name="Industry" Value="24" />
   </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechA37Autobot">
+    <AIParameter Name="Industry" Value="24" />
+  </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechA16">
     <AIParameter Name="Military" Value="21" />
   </AIParametersDatatableElement>
@@ -1083,6 +1167,9 @@
     <AIParameter Name="Military" Value="13" />
   </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechA18Automaton">
+    <AIParameter Name="Industry" Value="26" />
+  </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechA18Autobot">
     <AIParameter Name="Industry" Value="26" />
   </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechA19">
@@ -1147,7 +1234,13 @@
   <AIParametersDatatableElement ConstructibleElement="TechG55Hissho">
     <AIParameter Name="Military" Value="10" />
   </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechG55Decepticon">
+    <AIParameter Name="Military" Value="10" />
+  </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechG64Hissho">
+    <AIParameter Name="Military" Value="12" />
+  </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechG64Decepticon">
     <AIParameter Name="Military" Value="12" />
   </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechG60">
@@ -1158,6 +1251,10 @@
     <AIParameter Name="WeaponModuleKinetic" Value="6" />
   </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechG10Hissho">
+    <AIParameter Name="DefenseModuleKinetic" Value="6" />
+    <AIParameter Name="WeaponModuleKinetic" Value="8" />
+  </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechG10Decepticon">
     <AIParameter Name="DefenseModuleKinetic" Value="6" />
     <AIParameter Name="WeaponModuleKinetic" Value="8" />
   </AIParametersDatatableElement>
@@ -1218,6 +1315,10 @@
     <AIParameter Name="Military" Value="12" />
     <AIParameter Name="Invasion" Value="10" />
   </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechG19Decepticon">
+    <AIParameter Name="Military" Value="12" />
+    <AIParameter Name="Invasion" Value="10" />
+  </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechG20">
     <AIParameter Name="Military" Value="20" />
   </AIParametersDatatableElement>
@@ -1234,6 +1335,9 @@
     <AIParameter Name="Military" Value="16" />
   </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechG21Automaton">
+    <AIParameter Name="Military" Value="22" />
+  </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechG21Autobot">
     <AIParameter Name="Military" Value="22" />
   </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechG21Emperor">
@@ -1278,6 +1382,10 @@
     <AIParameter Name="DefenseModuleMissile" Value="12" />
     <AIParameter Name="WeaponModuleMissile" Value="16" />
   </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechG29Decepticon">
+    <AIParameter Name="DefenseModuleMissile" Value="12" />
+    <AIParameter Name="WeaponModuleMissile" Value="16" />
+  </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechG59Horatio">
     <AIParameter Name="Food" Value="10" />
     <AIParameter Name="Invasion" Value="18" />
@@ -1305,6 +1413,9 @@
   <AIParametersDatatableElement ConstructibleElement="TechG56Hissho">
     <AIParameter Name="Military" Value="30" />
   </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechG56Decepticon">
+    <AIParameter Name="Military" Value="30" />
+  </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechG57Terran">
     <AIParameter Name="Military" Value="30" />
   </AIParametersDatatableElement>
@@ -1320,6 +1431,10 @@
     <AIParameter Name="Invasion" Value="26" />
   </AIParametersDatatableElement>
   <AIParametersDatatableElement ConstructibleElement="TechG37Hissho">
+    <AIParameter Name="Military" Value="6" />
+    <AIParameter Name="Invasion" Value="26" />
+  </AIParametersDatatableElement>
+  <AIParametersDatatableElement ConstructibleElement="TechG37Decepticon">
     <AIParameter Name="Military" Value="6" />
     <AIParameter Name="Invasion" Value="26" />
   </AIParametersDatatableElement>

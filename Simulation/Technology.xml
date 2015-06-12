@@ -302,4 +302,34 @@
     </Gui>
   </Technology>
 
+  <Technology Name="TechPlayerStartAutobot" Cost="0" IsUnique="true" X="0" Y="0" Hidden="true">
+    <Descriptors />
+    <PathsPrerequisites>$(AffinityAutobot)</PathsPrerequisites>
+    <TechnologiesPrerequisites></TechnologiesPrerequisites>
+    <TechnologiesDependencies></TechnologiesDependencies>
+    <Unlockable Name="ShipClassSmall1Automaton" Access="Standard" />
+    <Unlockable Name="ShipClassColonizationAutomaton" Access="Standard" />
+    <Unlockable Name="ModuleColonization" Access="Standard" />
+    <Gui>
+      <Title>%TechPlayerStartTitle</Title>
+      <Description>%TechPlayerStartDescription</Description>
+      <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyStart" />
+    </Gui>
+  </Technology>
+
+  <Technology Name="TechPlayerStartDecepticon" Cost="0" IsUnique="true" X="0" Y="0" Hidden="true">
+    <Descriptors />
+    <PathsPrerequisites>$(AffinityDecepticon)</PathsPrerequisites>
+    <TechnologiesPrerequisites></TechnologiesPrerequisites>
+    <TechnologiesDependencies></TechnologiesDependencies>
+    <Unlockable Name="ShipClassSmall1Hissho" Access="Standard" />
+    <Unlockable Name="ShipClassColonizationHissho" Access="Standard" />
+    <Unlockable Name="ModuleColonization" Access="Standard" />
+    <Gui>
+      <Title>%TechPlayerStartTitle</Title>
+      <Description>%TechPlayerStartDescription</Description>
+      <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyStart" />
+    </Gui>
+  </Technology>
+
 </Datatable>

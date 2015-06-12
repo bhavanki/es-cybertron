@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Trait Name="TraitStartingShipScoutDecepticon" Family="TraitStartingShip" Level="1" Cost="0" Hidden="true">
+    <Command Name="CreateFleet" Arguments="ScoutDecepticonDesign"/>
+    <Gui>
+      <Title>%TraitStartingFleetTitle</Title>
+      <Description>%TraitStartingFleetDescription</Description>
+      <Icon />
+    </Gui>
+  </Trait>
+
+  <Trait Name="TraitStartingShipColonizationDecepticon" Family="TraitStartingShip" Level="1" Cost="0" Hidden="true">
+    <Command Name="CreateFleet" Arguments="ColonyShipDecepticonDesign"/>
+    <Gui>
+      <Title>%TraitStartingFleetTitle</Title>
+      <Description>%TraitStartingFleetDescription</Description>
+      <Icon />
+    </Gui>
+  </Trait>
+
+  <Affinity Name="AffinityDecepticon" Family="Affinity" Hidden="false" Cost="65" DefaultAffinityMapping="AffinityMappingHissho">
+    <Descriptors>AffinityDecepticon</Descriptors>
+      <SubTraits>TraitStartingShipScoutDecepticon,TraitStartingShipColonizationDecepticon,TraitUnlockingTechnoDecepticon,TraitColonizeHomeSystem</SubTraits>
+    <Command Name="SetInitialMoney" Arguments="10"/>
+    <Personality>PersonalityHissho</Personality>
+    <Gui>
+      <Title>%AffinityDecepticonTitle</Title>
+      <Description>%AffinityDecepticonDescription</Description>
+      <Tooltip>
+        <Description>%AffinityDecepticonTooltipEffect1</Description>
+        <Description>%AffinityDecepticonTooltipEffect2</Description>
+        <Description>%AffinityDecepticonTooltipEffect3</Description>
+        <Description>%AffinityDecepticonTooltipEffect4</Description>
+        <Description> </Description>
+        <Description>%AffinityDecepticonTooltipEffect5</Description>
+      </Tooltip>
+      <Icon Small="Gui/CustomFactions/Megs32" Large="Gui/CustomFactions/Megs128" Wide="Gui/CustomFactions/Decepticons"/>
+    </Gui>
+  </Affinity>
+
+  <Trait Name="TraitUnlockingTechnoDecepticon" Family="Affinity" Level="1" Cost="0" Hidden="true">
+    <Command Name="UnlockTechnologies" Arguments="TechPlayerStart"/>
+    <Command Name="UnlockTechnologies" Arguments="TechPlayerStartDecepticon"/>
+    <Gui>
+      <Title>%TraitStartingFleetTitle</Title>
+      <Description>%TraitStartingFleetDescription</Description>
+      <Icon />
+    </Gui>
+  </Trait>
+
+</Datatable>

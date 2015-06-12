@@ -256,6 +256,32 @@
       <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyE04HarmonySmall"/>
     </Gui>
   </Technology>
+  <Technology Name="TechE04Autobot" Cost="130" IsUnique="true" X="2.5" Y="3" Category="ExplorationExpansion">
+    <Descriptors />
+    <PathsPrerequisites>$(AffinityAutobot)</PathsPrerequisites>
+    <TechnologiesPrerequisites></TechnologiesPrerequisites>
+    <TechnologiesDependencies>TechE27;TechE27WithColonizeTraitScience03</TechnologiesDependencies>
+    <Unlockable Name="ShipClassSmall2Automaton" Access="Standard" />
+    <Unlockable Name="ShipClassUnlockedSmall2" Access="Hidden" />
+    <Gui>
+      <Title>%TechE04AutomatonTitle</Title>
+      <Description>%TechE04AutomatonDescription</Description>
+      <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyE04SwarmSmall"/>
+    </Gui>
+  </Technology>
+  <Technology Name="TechE04Decepticon" Cost="130" IsUnique="true" X="2.5" Y="3" Category="ExplorationExpansion">
+    <Descriptors />
+    <PathsPrerequisites>$(AffinityDecepticon)</PathsPrerequisites>
+    <TechnologiesPrerequisites></TechnologiesPrerequisites>
+    <TechnologiesDependencies>TechE27;TechE27WithColonizeTraitScience03</TechnologiesDependencies>
+    <Unlockable Name="ShipClassSmall2Hissho" Access="Standard" />
+    <Unlockable Name="ShipClassUnlockedSmall2" Access="Hidden" />
+    <Gui>
+      <Title>%TechE04HisshoTitle</Title>
+      <Description>%TechE04HisshoDescription</Description>
+      <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyE04HisshoSmall"/>
+    </Gui>
+  </Technology>
 
 
 
@@ -357,7 +383,7 @@
     <Descriptors />
     <PathsPrerequisites>!$(AffinityHarmony)</PathsPrerequisites>
     <TechnologiesPrerequisites></TechnologiesPrerequisites>
-    <TechnologiesDependencies>TechE04Terran;TechE04Swarm;TechE04Sophon;TechE04Horatio;TechE04Hissho;TechE04Sower;TechE04Amoeba;TechE04Resistance;TechE04Automaton;TechE04Emperor;TechE04Vaulter;TechE03;TechE03WithColonizeTraitScience03</TechnologiesDependencies>
+    <TechnologiesDependencies>TechE04Terran;TechE04Swarm;TechE04Sophon;TechE04Horatio;TechE04Hissho;TechE04Decepticon;TechE04Sower;TechE04Amoeba;TechE04Resistance;TechE04Automaton;TechE04Autobot;TechE04Emperor;TechE04Vaulter;TechE03;TechE03WithColonizeTraitScience03</TechnologiesDependencies>
     <Unlockable Name="MovementWormhole1" Access="Standard" />
     <Unlockable Name="Overcolonization1" Access="Standard" />
     <Gui>
@@ -443,6 +469,20 @@
   <Technology Name="TechE08Hissho" Cost="680" IsUnique="true" X="0" Y="5" Category="ExplorationExpansion">
     <Descriptors />
     <PathsPrerequisites>$(AffinityHissho) and !$(TraitScience03Default)</PathsPrerequisites>
+    <TechnologiesPrerequisites></TechnologiesPrerequisites>
+    <TechnologiesDependencies>TechE05;TechE06</TechnologiesDependencies>
+    <Unlockable Name="ColonizeLava" Access="Standard" />
+    <Unlockable Name="ShipClassMedium1Hissho" Access="Standard" />
+    <Unlockable Name="ShipClassUnlockedMedium1" Access="Hidden" />
+    <Gui>
+      <Title>%TechE08HisshoTitle</Title>
+      <Description>%TechE08HisshoDescription</Description>
+      <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyE08HisshoSmall"/>
+    </Gui>
+  </Technology>
+  <Technology Name="TechE08Decepticon" Cost="680" IsUnique="true" X="0" Y="5" Category="ExplorationExpansion">
+    <Descriptors />
+    <PathsPrerequisites>$(AffinityDecepticon) and !$(TraitScience03Default)</PathsPrerequisites>
     <TechnologiesPrerequisites></TechnologiesPrerequisites>
     <TechnologiesDependencies>TechE05;TechE06</TechnologiesDependencies>
     <Unlockable Name="ColonizeLava" Access="Standard" />
@@ -555,6 +595,20 @@
   <Technology Name="TechE08HisshoWithColonizeTraitScience03" Cost="680" IsUnique="true" X="0" Y="5" Category="ExplorationExpansion">
     <Descriptors />
     <PathsPrerequisites>$(AffinityHissho) and $(TraitScience03Default)</PathsPrerequisites>
+    <TechnologiesPrerequisites></TechnologiesPrerequisites>
+    <TechnologiesDependencies>TechE05;TechE06</TechnologiesDependencies>
+    <Unlockable Name="ColonizeLavaWithColonizeTraitScience03" Access="Standard" />
+    <Unlockable Name="ShipClassMedium1Hissho" Access="Standard" />
+    <Unlockable Name="ShipClassUnlockedMedium1" Access="Hidden" />
+    <Gui>
+      <Title>%TechE08HisshoTitle</Title>
+      <Description>%TechE08HisshoDescription</Description>
+      <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyE08HisshoSmall"/>
+    </Gui>
+  </Technology>
+  <Technology Name="TechE08DecepticonWithColonizeTraitScience03" Cost="680" IsUnique="true" X="0" Y="5" Category="ExplorationExpansion">
+    <Descriptors />
+    <PathsPrerequisites>$(AffinityDecepticon) and $(TraitScience03Default)</PathsPrerequisites>
     <TechnologiesPrerequisites></TechnologiesPrerequisites>
     <TechnologiesDependencies>TechE05;TechE06</TechnologiesDependencies>
     <Unlockable Name="ColonizeLavaWithColonizeTraitScience03" Access="Standard" />
@@ -720,7 +774,34 @@
       <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyE08HarmonySmall"/>
     </Gui>
   </Technology>
-
+  <Technology Name="TechE08Autobot" Cost="680" IsUnique="true" X="0" Y="5" Category="ExplorationExpansion">
+    <Descriptors />
+    <PathsPrerequisites>$(AffinityAutobot) and !$(TraitScience03Default)</PathsPrerequisites>
+    <TechnologiesPrerequisites></TechnologiesPrerequisites>
+    <TechnologiesDependencies>TechE05;TechE06</TechnologiesDependencies>
+    <Unlockable Name="ColonizeLava" Access="Standard" />
+    <Unlockable Name="ShipClassMedium1Automaton" Access="Standard" />
+    <Unlockable Name="ShipClassUnlockedMedium1" Access="Hidden" />
+    <Gui>
+      <Title>%TechE08AutomatonTitle</Title>
+      <Description>%TechE08AutomatonDescription</Description>
+      <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyE08SwarmSmall"/>
+    </Gui>
+  </Technology>
+  <Technology Name="TechE08AutobotWithColonizeTraitScience03" Cost="680" IsUnique="true" X="0" Y="5" Category="ExplorationExpansion">
+    <Descriptors />
+    <PathsPrerequisites>$(AffinityAutobot) and $(TraitScience03Default)</PathsPrerequisites>
+    <TechnologiesPrerequisites></TechnologiesPrerequisites>
+    <TechnologiesDependencies>TechE05;TechE06</TechnologiesDependencies>
+    <Unlockable Name="ColonizeLavaWithColonizeTraitScience03" Access="Standard" />
+    <Unlockable Name="ShipClassMedium1Automaton" Access="Standard" />
+    <Unlockable Name="ShipClassUnlockedMedium1" Access="Hidden" />
+    <Gui>
+      <Title>%TechE08AutomatonTitle</Title>
+      <Description>%TechE08AutomatonDescription</Description>
+      <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyE08SwarmSmall"/>
+    </Gui>
+  </Technology>
 
   <!-- Between 4th and 5th circle -->
   <!-- ### TBD ### -->
@@ -805,6 +886,19 @@
       <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyE33AutomatonSmall"/>
     </Gui>
   </Technology>
+  <Technology Name="TechE33Autobot" Cost="1800" IsUnique="true" X="-2.5" Y="7" Category="ExplorationExpansion">
+    <Descriptors />
+    <PathsPrerequisites>$(AffinityAutobot)</PathsPrerequisites>
+    <TechnologiesPrerequisites></TechnologiesPrerequisites>
+    <TechnologiesDependencies>TechE07</TechnologiesDependencies>
+    <Unlockable Name="EmpireImprovementUniqueAutomaton2Fake" Access="Standard" />
+    <Unlockable Name="EmpireImprovementUniqueAutomaton2" Access="Hidden" />
+    <Gui>
+      <Title>%TechE33AutomatonTitle</Title>
+      <Description>%TechE33AutomatonDescription</Description>
+      <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyE33AutomatonSmall"/>
+    </Gui>
+  </Technology>
   
   <Technology Name="TechE28Resistance" Cost="1800" IsUnique="true" X="-2.5" Y="7" Category="ExplorationExpansion">
     <Descriptors />
@@ -837,7 +931,7 @@
     <Descriptors />
     <PathsPrerequisites></PathsPrerequisites>
     <TechnologiesPrerequisites></TechnologiesPrerequisites>
-    <TechnologiesDependencies>TechE07;TechE08Terran;TechE08Swarm;TechE08Sophon;TechE08Horatio;TechE08Hissho;TechE08Sower;TechE08Amoeba;TechE08Resistance;TechE08Automaton;TechE08Harmony;TechE08Emperor;TechE08Vaulter;TechE08TerranWithColonizeTraitScience03;TechE08SwarmWithColonizeTraitScience03;TechE08SophonWithColonizeTraitScience03;TechE08HoratioWithColonizeTraitScience03;TechE08HisshoWithColonizeTraitScience03;TechE08SowerWithColonizeTraitScience03;TechE08AmoebaWithColonizeTraitScience03;TechE08ResistanceWithColonizeTraitScience03;TechE08AutomatonWithColonizeTraitScience03;TechE08HarmonyWithColonizeTraitScience03;TechE08EmperorWithColonizeTraitScience03;TechE08VaulterWithColonizeTraitScience03</TechnologiesDependencies>
+    <TechnologiesDependencies>TechE07;TechE08Terran;TechE08Swarm;TechE08Sophon;TechE08Horatio;TechE08Hissho;TechE08Decepticon;TechE08Sower;TechE08Amoeba;TechE08Resistance;TechE08Automaton;TechE08Autobot;TechE08Harmony;TechE08Emperor;TechE08Vaulter;TechE08TerranWithColonizeTraitScience03;TechE08SwarmWithColonizeTraitScience03;TechE08SophonWithColonizeTraitScience03;TechE08HoratioWithColonizeTraitScience03;TechE08HisshoWithColonizeTraitScience03;TechE08DecepticonWithColonizeTraitScience03;TechE08SowerWithColonizeTraitScience03;TechE08AmoebaWithColonizeTraitScience03;TechE08ResistanceWithColonizeTraitScience03;TechE08AutomatonWithColonizeTraitScience03;TechE08AutobotWithColonizeTraitScience03;TechE08HarmonyWithColonizeTraitScience03;TechE08EmperorWithColonizeTraitScience03;TechE08VaulterWithColonizeTraitScience03</TechnologiesDependencies>
     <Unlockable Name="TerraformationToLava" Access="Standard" />
     <Unlockable Name="SystemBuildingSpecial1" Access="Standard" />
     <Gui>
@@ -852,7 +946,7 @@
     <Descriptors />
     <PathsPrerequisites>!$(AffinityResistance) and !$(TraitScience03Default)</PathsPrerequisites>
     <TechnologiesPrerequisites></TechnologiesPrerequisites>
-    <TechnologiesDependencies>TechE08Terran;TechE08Swarm;TechE08Sophon;TechE08Horatio;TechE08Hissho;TechE08Sower;TechE08Amoeba;TechE08Automaton;TechE08Harmony;TechE08Emperor;TechE08Vaulter</TechnologiesDependencies>
+    <TechnologiesDependencies>TechE08Terran;TechE08Swarm;TechE08Sophon;TechE08Horatio;TechE08Hissho;TechE08Decepticon;TechE08Sower;TechE08Amoeba;TechE08Automaton;TechE08Autobot;TechE08Harmony;TechE08Emperor;TechE08Vaulter</TechnologiesDependencies>
     <Unlockable Name="MovementFreeMove1" Access="Standard" />
     <Unlockable Name="ColonizeGasGiant" Access="Fake" />
     <Unlockable Name="ColonizeGasHydrogen" Access="Hidden" />
@@ -868,7 +962,7 @@
     <Descriptors />
     <PathsPrerequisites>!$(AffinityResistance) and $(TraitScience03Default)</PathsPrerequisites>
     <TechnologiesPrerequisites></TechnologiesPrerequisites>
-    <TechnologiesDependencies>TechE08TerranWithColonizeTraitScience03;TechE08SwarmWithColonizeTraitScience03;TechE08SophonWithColonizeTraitScience03;TechE08HoratioWithColonizeTraitScience03;TechE08HisshoWithColonizeTraitScience03;TechE08SowerWithColonizeTraitScience03;TechE08AmoebaWithColonizeTraitScience03;TechE08AutomatonWithColonizeTraitScience03;TechE08HarmonyWithColonizeTraitScience03;TechE08EmperorWithColonizeTraitScience03;TechE08VaulterWithColonizeTraitScience03</TechnologiesDependencies>
+    <TechnologiesDependencies>TechE08TerranWithColonizeTraitScience03;TechE08SwarmWithColonizeTraitScience03;TechE08SophonWithColonizeTraitScience03;TechE08HoratioWithColonizeTraitScience03;TechE08HisshoWithColonizeTraitScience03;TechE08DecepticonWithColonizeTraitScience03;TechE08SowerWithColonizeTraitScience03;TechE08AmoebaWithColonizeTraitScience03;TechE08AutomatonWithColonizeTraitScience03;TechE08AutobotWithColonizeTraitScience03;TechE08HarmonyWithColonizeTraitScience03;TechE08EmperorWithColonizeTraitScience03;TechE08VaulterWithColonizeTraitScience03</TechnologiesDependencies>
     <Unlockable Name="MovementFreeMove1" Access="Standard" />
     <Unlockable Name="ColonizeGasGiantWithColonizeTraitScience03" Access="Fake" />
     <Unlockable Name="ColonizeGasHydrogenWithColonizeTraitScience03" Access="Hidden" />
@@ -886,7 +980,7 @@
     <Descriptors />
     <PathsPrerequisites>!$(TraitScience03Default)</PathsPrerequisites>
     <TechnologiesPrerequisites></TechnologiesPrerequisites>
-    <TechnologiesDependencies>TechE08Terran;TechE08Swarm;TechE08Sophon;TechE08Horatio;TechE08Hissho;TechE08Sower;TechE08Amoeba;TechE08Resistance;TechE08Automaton;TechE08Harmony;TechE08Emperor;TechE08Vaulter;TechE09</TechnologiesDependencies>
+    <TechnologiesDependencies>TechE08Terran;TechE08Swarm;TechE08Sophon;TechE08Horatio;TechE08Hissho;TechE08Decepticon;TechE08Sower;TechE08Amoeba;TechE08Resistance;TechE08Automaton;TechE08Autobot;TechE08Harmony;TechE08Emperor;TechE08Vaulter;TechE09</TechnologiesDependencies>
     <Unlockable Name="ColonizeAsteroids" Access="Standard" />
     <Unlockable Name="TerraformationToBarren" Access="Standard" />
     <Gui>
@@ -899,7 +993,7 @@
     <Descriptors />
     <PathsPrerequisites>$(TraitScience03Default)</PathsPrerequisites>
     <TechnologiesPrerequisites></TechnologiesPrerequisites>
-    <TechnologiesDependencies>TechE08TerranWithColonizeTraitScience03;TechE08SwarmWithColonizeTraitScience03;TechE08SophonWithColonizeTraitScience03;TechE08HoratioWithColonizeTraitScience03;TechE08HisshoWithColonizeTraitScience03;TechE08SowerWithColonizeTraitScience03;TechE08AmoebaWithColonizeTraitScience03;TechE08ResistanceWithColonizeTraitScience03;TechE08AutomatonWithColonizeTraitScience03;TechE08HarmonyWithColonizeTraitScience03;TechE08EmperorWithColonizeTraitScience03;TechE08VaulterWithColonizeTraitScience03;TechE09WithColonizeTraitScience03</TechnologiesDependencies>
+    <TechnologiesDependencies>TechE08TerranWithColonizeTraitScience03;TechE08SwarmWithColonizeTraitScience03;TechE08SophonWithColonizeTraitScience03;TechE08HoratioWithColonizeTraitScience03;TechE08HisshoWithColonizeTraitScience03;TechE08DecepticonWithColonizeTraitScience03;TechE08SowerWithColonizeTraitScience03;TechE08AmoebaWithColonizeTraitScience03;TechE08ResistanceWithColonizeTraitScience03;TechE08AutomatonWithColonizeTraitScience03;TechE08AutobotWithColonizeTraitScience03;TechE08HarmonyWithColonizeTraitScience03;TechE08EmperorWithColonizeTraitScience03;TechE08VaulterWithColonizeTraitScience03;TechE09WithColonizeTraitScience03</TechnologiesDependencies>
     <Unlockable Name="ColonizeAsteroidsWithColonizeTraitScience03" Access="Standard" />
     <Unlockable Name="TerraformationToBarren" Access="Standard" />
     <Gui>
@@ -943,7 +1037,7 @@
   <!-- gas terraformation ADD ON 4 -->
   <Technology Name="TechE31" Cost="4000" IsUnique="true" X="0" Y="7" Category="ExplorationExpansion">
     <Descriptors />
-    <PathsPrerequisites>!$(AffinityResistance) and !$(AffinityAutomaton)</PathsPrerequisites>
+    <PathsPrerequisites>!$(AffinityResistance) and !$(AffinityAutomaton) and !$(AffinityAutobot)</PathsPrerequisites>
     <TechnologiesPrerequisites></TechnologiesPrerequisites>
     <TechnologiesDependencies>TechE11;TechE11WithColonizeTraitScience03</TechnologiesDependencies>
     <Unlockable Name="TerraformationToGasGiant" Access="Fake" />
@@ -1001,12 +1095,45 @@
       <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyE31AutomatonSmall"/>
     </Gui>
   </Technology>
+  <Technology Name="TechE31Autobot" Cost="25000" IsUnique="true" X="0" Y="10" Category="ExplorationExpansion">
+    <Descriptors />
+    <PathsPrerequisites>$(AffinityAutobot)</PathsPrerequisites>
+    <TechnologiesPrerequisites></TechnologiesPrerequisites>
+    <TechnologiesDependencies>TechE19</TechnologiesDependencies>
+    <Unlockable Name="TerraformationToGasGiant" Access="Fake" />
+    <Unlockable Name="TerraformationToGasHydrogen" Access="Hidden" />
+    <Unlockable Name="TerraformationToGasHelium" Access="Hidden" />
+    <Unlockable Name="TerraformationToGasMethane" Access="Hidden" />
+    <Unlockable Name="TerraformationToLavaFromGas" Access="Hidden" />
+    <Unlockable Name="TerraformationToBarrenFromGas" Access="Hidden" />
+  <Unlockable Name="TerraformationToGasHydrogenFromGas" Access="Hidden" />
+    <Unlockable Name="TerraformationToGasHeliumFromGas" Access="Hidden" />
+    <Unlockable Name="TerraformationToGasMethaneFromGas" Access="Hidden" />
+    <Gui>
+      <Title>%TechE31Title</Title>
+      <Description>%TechE31Description</Description>
+      <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyE31AutomatonSmall"/>
+    </Gui>
+  </Technology>
   
   
   <!--Automaton Complex regulated systems -->
   <Technology Name="TechE22Automaton" Cost="4000" IsUnique="true" X="0" Y="7" Category="ExplorationExpansion">
     <Descriptors />
     <PathsPrerequisites>$(AffinityAutomaton)</PathsPrerequisites>
+    <TechnologiesPrerequisites></TechnologiesPrerequisites>
+    <TechnologiesDependencies>TechE11;TechE11WithColonizeTraitScience03</TechnologiesDependencies>
+    <Unlockable Name="MovementFreeMove3" Access="Standard" />
+    <Unlockable Name="TerraformationToTerranAutomaton" Access="Standard" />
+    <Gui>
+      <Title>%TechE22AutomatonTitle</Title>
+      <Description>%TechE22AutomatonDescription</Description>
+      <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyE22AutomatonSmall"/>
+    </Gui>
+  </Technology>
+  <Technology Name="TechE22Autobot" Cost="4000" IsUnique="true" X="0" Y="7" Category="ExplorationExpansion">
+    <Descriptors />
+    <PathsPrerequisites>$(AffinityAutobot)</PathsPrerequisites>
     <TechnologiesPrerequisites></TechnologiesPrerequisites>
     <TechnologiesDependencies>TechE11;TechE11WithColonizeTraitScience03</TechnologiesDependencies>
     <Unlockable Name="MovementFreeMove3" Access="Standard" />
@@ -1093,6 +1220,20 @@
   <Technology Name="TechE14Hissho" Cost="4000" IsUnique="true" X="1.0" Y="7" Category="ExplorationExpansion">
     <Descriptors />
     <PathsPrerequisites>$(AffinityHissho)</PathsPrerequisites>
+    <TechnologiesPrerequisites></TechnologiesPrerequisites>
+    <TechnologiesDependencies>TechE11;TechE11WithColonizeTraitScience03;TechE12;TechE12WithColonizeTraitScience03</TechnologiesDependencies>
+    <Unlockable Name="ShipClassMedium2Hissho" Access="Standard" />
+    <Unlockable Name="ShipClassUnlockedMedium2" Access="Hidden" />
+    <Unlockable Name="Overcolonization2" Access="Standard" />
+    <Gui>
+      <Title>%TechE14HisshoTitle</Title>
+      <Description>%TechE14HisshoDescription</Description>
+      <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyE14HisshoSmall"/>
+    </Gui>
+  </Technology>
+  <Technology Name="TechE14Decepticon" Cost="4000" IsUnique="true" X="1.0" Y="7" Category="ExplorationExpansion">
+    <Descriptors />
+    <PathsPrerequisites>$(AffinityDecepticon)</PathsPrerequisites>
     <TechnologiesPrerequisites></TechnologiesPrerequisites>
     <TechnologiesDependencies>TechE11;TechE11WithColonizeTraitScience03;TechE12;TechE12WithColonizeTraitScience03</TechnologiesDependencies>
     <Unlockable Name="ShipClassMedium2Hissho" Access="Standard" />
@@ -1200,6 +1341,20 @@
       <Title>%TechE14HarmonyTitle</Title>
       <Description>%TechE14HarmonyDescription</Description>
       <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyE14HarmonySmall"/>
+    </Gui>
+  </Technology>
+  <Technology Name="TechE14Autobot" Cost="4000" IsUnique="true" X="1.0" Y="7" Category="ExplorationExpansion">
+    <Descriptors />
+    <PathsPrerequisites>$(AffinityAutobot)</PathsPrerequisites>
+    <TechnologiesPrerequisites></TechnologiesPrerequisites>
+    <TechnologiesDependencies>TechE11;TechE11WithColonizeTraitScience03;TechE12;TechE12WithColonizeTraitScience03</TechnologiesDependencies>
+    <Unlockable Name="ShipClassMedium2Automaton" Access="Standard" />
+    <Unlockable Name="ShipClassUnlockedMedium2" Access="Hidden" />
+    <Unlockable Name="Overcolonization2" Access="Standard" />
+    <Gui>
+      <Title>%TechE14AutomatonTitle</Title>
+      <Description>%TechE14AutomatonDescription</Description>
+      <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyE14SwarmSmall"/>
     </Gui>
   </Technology>
   
@@ -1332,6 +1487,20 @@
       <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyE16HisshoSmall"/>
     </Gui>
   </Technology>
+  <Technology Name="TechE16Decepticon" Cost="7500" IsUnique="true" X="0" Y="8" Category="ExplorationExpansion">
+    <Descriptors />
+    <PathsPrerequisites>$(AffinityDecepticon)</PathsPrerequisites>
+    <TechnologiesPrerequisites></TechnologiesPrerequisites>
+    <TechnologiesDependencies>TechE13;TechE14Decepticon</TechnologiesDependencies>
+    <Unlockable Name="ShipClassLarge1Hissho" Access="Standard" />
+    <Unlockable Name="ShipClassUnlockedLarge1" Access="Hidden" />
+    <Unlockable Name="StarSystemImprovementHabitat2" Access="Standard" />
+    <Gui>
+      <Title>%TechE16HisshoTitle</Title>
+      <Description>%TechE16HisshoDescription</Description>
+      <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyE16HisshoSmall"/>
+    </Gui>
+  </Technology>
   <Technology Name="TechE16Sower" Cost="7500" IsUnique="true" X="0" Y="8" Category="ExplorationExpansion">
     <Descriptors />
     <PathsPrerequisites>$(AffinitySower)</PathsPrerequisites>
@@ -1430,13 +1599,27 @@
       <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyE16HarmonySmall"/>
     </Gui>
   </Technology>
+  <Technology Name="TechE16Autobot" Cost="7500" IsUnique="true" X="0" Y="8" Category="ExplorationExpansion">
+    <Descriptors />
+    <PathsPrerequisites>$(AffinityAutobot)</PathsPrerequisites>
+    <TechnologiesPrerequisites></TechnologiesPrerequisites>
+    <TechnologiesDependencies>TechE13;TechE14Autobot</TechnologiesDependencies>
+    <Unlockable Name="ShipClassLarge1Automaton" Access="Standard" />
+    <Unlockable Name="ShipClassUnlockedLarge1" Access="Hidden" />
+    <Unlockable Name="StarSystemImprovementHabitat2" Access="Standard" />
+    <Gui>
+      <Title>%TechE16AutomatonTitle</Title>
+      <Description>%TechE16AutomatonDescription</Description>
+      <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyE16SwarmSmall"/>
+    </Gui>
+  </Technology>
 
   <!-- Low-temperature Hydration -->
   <Technology Name="TechE17" Cost="7500" IsUnique="true" X="2" Y="8" Category="ExplorationExpansion">
     <Descriptors />
-    <PathsPrerequisites>!$(AffinityAutomaton)</PathsPrerequisites>
+    <PathsPrerequisites>!$(AffinityAutomaton) and !$(AffinityAutobot)</PathsPrerequisites>
     <TechnologiesPrerequisites></TechnologiesPrerequisites>
-    <TechnologiesDependencies>TechE12;TechE12WithColonizeTraitScience03;TechE14Terran;TechE14Swarm;TechE14Sophon;TechE14Horatio;TechE14Hissho;TechE14Sower;TechE14Amoeba;TechE14Resistance;TechE14Automaton;TechE14Emperor;TechE14Harmony;TechE14Vaulter;TechE20Sower</TechnologiesDependencies>
+    <TechnologiesDependencies>TechE12;TechE12WithColonizeTraitScience03;TechE14Terran;TechE14Swarm;TechE14Sophon;TechE14Horatio;TechE14Hissho;TechE14Decepticon;TechE14Sower;TechE14Amoeba;TechE14Resistance;TechE14Automaton;TechE14Autobot;TechE14Emperor;TechE14Harmony;TechE14Vaulter;TechE20Sower</TechnologiesDependencies>
     <Unlockable Name="TerraformationToArctic" Access="Standard" />
     <Unlockable Name="SystemBuildingSpecial2" Access="Standard" />
     <Gui>
@@ -1450,6 +1633,19 @@
     <PathsPrerequisites>$(AffinityAutomaton)</PathsPrerequisites>
     <TechnologiesPrerequisites></TechnologiesPrerequisites>
     <TechnologiesDependencies>TechE12;TechE12WithColonizeTraitScience03;TechE14Automaton</TechnologiesDependencies>
+    <Unlockable Name="TerraformationToArctic" Access="Standard" />
+    <Unlockable Name="SystemBuildingSpecial2Automaton" Access="Standard" />
+    <Gui>
+      <Title>%TechE17Title</Title>
+      <Description>%TechE17Description</Description>
+      <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyE17AutomatonSmall"/>
+    </Gui>
+  </Technology>
+  <Technology Name="TechE17Autobot" Cost="7500" IsUnique="true" X="2" Y="8" Category="ExplorationExpansion">
+    <Descriptors />
+    <PathsPrerequisites>$(AffinityAutobot)</PathsPrerequisites>
+    <TechnologiesPrerequisites></TechnologiesPrerequisites>
+    <TechnologiesDependencies>TechE12;TechE12WithColonizeTraitScience03;TechE14Autobot</TechnologiesDependencies>
     <Unlockable Name="TerraformationToArctic" Access="Standard" />
     <Unlockable Name="SystemBuildingSpecial2Automaton" Access="Standard" />
     <Gui>
@@ -1494,7 +1690,7 @@
     <Descriptors />
     <PathsPrerequisites></PathsPrerequisites>
     <TechnologiesPrerequisites></TechnologiesPrerequisites>
-    <TechnologiesDependencies>TechE15;TechE16Terran;TechE16Swarm;TechE16Sophon;TechE16Horatio;TechE16Hissho;TechE16Sower;TechE16Amoeba;TechE16Resistance;TechE16Automaton;TechE16Emperor;TechE16Harmony;TechE16Vaulter</TechnologiesDependencies>
+    <TechnologiesDependencies>TechE15;TechE16Terran;TechE16Swarm;TechE16Sophon;TechE16Horatio;TechE16Hissho;TechE16Decepticon;TechE16Sower;TechE16Amoeba;TechE16Resistance;TechE16Automaton;TechE16Autobot;TechE16Emperor;TechE16Harmony;TechE16Vaulter</TechnologiesDependencies>
     <Unlockable Name="MovementFreeMove2" Access="Standard" />
     <Unlockable Name="TerraformationToArid" Access="Standard" />
     <!-- temp ADD ON 4-->
@@ -1510,7 +1706,7 @@
     <Descriptors />
     <PathsPrerequisites>!$(AffinityHoratio) and !$(AffinityHarmony)</PathsPrerequisites>
     <TechnologiesPrerequisites></TechnologiesPrerequisites>
-    <TechnologiesDependencies>TechE16Terran;TechE16Swarm;TechE16Sophon;TechE16Hissho;TechE16Sower;TechE16Amoeba;TechE16Resistance;TechE16Automaton;TechE16Emperor;TechE16Harmony;TechE16Vaulter</TechnologiesDependencies>
+    <TechnologiesDependencies>TechE16Terran;TechE16Swarm;TechE16Sophon;TechE16Hissho;TechE16Decepticon;TechE16Sower;TechE16Amoeba;TechE16Resistance;TechE16Automaton;TechE16Autobot;TechE16Emperor;TechE16Harmony;TechE16Vaulter</TechnologiesDependencies>
     <Unlockable Name="StarSystemImprovementHabitat3" Access="Standard" />
     <Unlockable Name="Overcolonization3" Access="Standard" />
     <Gui>
@@ -1551,7 +1747,7 @@
     <Descriptors />
     <PathsPrerequisites>!$(AffinitySower)</PathsPrerequisites>
     <TechnologiesPrerequisites></TechnologiesPrerequisites>
-    <TechnologiesDependencies>TechE16Terran;TechE16Swarm;TechE16Sophon;TechE16Horatio;TechE16Hissho;TechE16Amoeba;TechE16Resistance;TechE16Automaton;TechE17;TechE17Automaton;TechE16Emperor;TechE16Harmony;TechE16Vaulter</TechnologiesDependencies>
+    <TechnologiesDependencies>TechE16Terran;TechE16Swarm;TechE16Sophon;TechE16Horatio;TechE16Hissho;TechE16Decepticon;TechE16Amoeba;TechE16Resistance;TechE16Automaton;TechE16Autobot;TechE17;TechE17Automaton;TechE17Autobot;TechE16Emperor;TechE16Harmony;TechE16Vaulter</TechnologiesDependencies>
     <Unlockable Name="TerraformationToTundra" Access="Standard" />
     <Gui>
       <Title>%TechE20Title</Title>
@@ -1566,7 +1762,7 @@
   <!-- Complex Regulated Systems -->
   <Technology Name="TechE22" Cost="25000" IsUnique="true" X="0" Y="10" Category="ExplorationExpansion">
     <Descriptors />
-    <PathsPrerequisites>!$(AffinityAutomaton)</PathsPrerequisites>
+    <PathsPrerequisites>!$(AffinityAutomaton) and !$(AffinityAutobot)</PathsPrerequisites>
     <TechnologiesPrerequisites></TechnologiesPrerequisites>
     <TechnologiesDependencies>TechE18;TechE19;TechE19Horatio;TechE19Harmony;TechE20</TechnologiesDependencies>
     <Unlockable Name="MovementFreeMove3" Access="Standard" />

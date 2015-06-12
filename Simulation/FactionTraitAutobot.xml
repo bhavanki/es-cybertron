@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Trait Name="TraitStartingShipScoutAutobot" Family="TraitStartingShip" Level="1" Cost="0" Hidden="true">
+    <Command Name="CreateFleet" Arguments="ScoutAutobotDesign"/>
+    <Gui>
+      <Title>%TraitStartingFleetTitle</Title>
+      <Description>%TraitStartingFleetDescription</Description>
+      <Icon />
+    </Gui>
+  </Trait>
+
+  <Trait Name="TraitStartingShipColonizationAutobot" Family="TraitStartingShip" Level="1" Cost="0" Hidden="true">
+    <Command Name="CreateFleet" Arguments="ColonyShipAutobotDesign"/>
+    <Gui>
+      <Title>%TraitStartingFleetTitle</Title>
+      <Description>%TraitStartingFleetDescription</Description>
+      <Icon />
+    </Gui>
+  </Trait>
+
+  <Affinity Name="AffinityAutobot" Family="Affinity" Hidden="false" Cost="65" DefaultAffinityMapping="AffinityMappingAutomaton">
+    <Descriptors>AffinityAutobot</Descriptors>
+    <SubTraits>TraitStartingShipScoutAutobot,TraitStartingShipColonizationAutobot,TraitUnlockingTechnoAutobot,TraitColonizeHomeSystem</SubTraits>
+    <Command Name="SetInitialMoney" Arguments="10"/>
+    <Personality>PersonalityAutomaton</Personality>
+    <Gui>
+      <Title>%AffinityAutobotTitle</Title>
+      <Description>%AffinityAutobotDescription</Description>
+      <Icon Small="Gui/CustomFactions/OP32" Large="Gui/CustomFactions/OP128" Wide="Gui/CustomFactions/Autobots"/>
+    </Gui>
+  </Affinity>
+
+  <Trait Name="TraitUnlockingTechnoAutobot" Family="Affinity" Level="1" Cost="0" Hidden="true">
+    <Command Name="UnlockTechnologies" Arguments="TechPlayerStart"/>
+    <Command Name="UnlockTechnologies" Arguments="TechPlayerStartAutobot"/>
+    <Gui>
+      <Title>%TraitStartingFleetTitle</Title>
+      <Description>%TraitStartingFleetDescription</Description>
+      <Icon />
+    </Gui>
+  </Trait>
+
+</Datatable>

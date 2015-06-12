@@ -1,29 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Mod Name="Endless Space" Guid="C1C0725E-5015-4D87-BC56-49FFD509C6BD" Standalone="true">
+<Mod Name="Cybertron" Guid="D69B7941-D645-4B8A-B684-59295DD4FE6C" Standalone="true">
 
-  <Version Major="1" Minor="1" Revision="58" Serial="3" />
+  <Version Major="0" Minor="1" Revision="0" Serial="0" />
   <MinimumRequiredGameVersion Major="1" Minor="0" Revision="0" Serial="0" />
   <RequestedDLCName>Disharmony</RequestedDLCName>
-  <Authors>AMPLITUDE Studios</Authors>
-  <Homepage>http://endless-space.amplitude-studios.com</Homepage>
-  <ReleaseDate>2015-03-03</ReleaseDate>
+  <Authors>Computronus</Authors>
+  <Homepage>https://github.com/kbzod/es-cybertron</Homepage>
+  <ReleaseDate>2015-06-11</ReleaseDate>
 
   <ReleaseNotes>
-    All the version notes since the alpha version can be found at:
-    http://forums.amplitude-studios.com/showthread.php?446-Release-Notes
+    More than meets the eye!
   </ReleaseNotes>
 
   <Description>
-    This galaxy is ancient, and its first intelligent life was the civilization we call the Endless. Long before our eyes gazed upon the stars they flew between them, though all that remains of this people is what we call Dust. A substance found scattered or in forgotten temples, it once gave powers to admirals and galactic governors. 
+    They have warred among themselves for millions of years, and now the conflict between the Autobots and Decepticons has spread throughout the galaxy.
   </Description>
 
   <Tag>General</Tag>
 
-  <Thumbnail>Gui/Thumbnail-01.jpg</Thumbnail>
+  <!-- <Thumbnail>Gui/Thumbnail-01.jpg</Thumbnail>
   <Thumbnail>Gui/Thumbnail-02.jpg</Thumbnail>
   <Thumbnail>Gui/Thumbnail-03.jpg</Thumbnail>
   <Thumbnail>Gui/Thumbnail-04.jpg</Thumbnail>
-  <Thumbnail>Gui/Thumbnail-05.jpg</Thumbnail>
+  <Thumbnail>Gui/Thumbnail-05.jpg</Thumbnail> -->
 
   <Gui>
     <Title>%ModName</Title>
@@ -84,15 +83,21 @@
         <File>Simulation/DiplomaticStatus.xml</File>
       </Repository>
       <Repository Target="Faction">
+        <File>Simulation/FactionAutobot.xml</File>
+        <File>Simulation/FactionDecepticon.xml</File>
         <File>Simulation/Faction.xml</File>
       </Repository>
       <Repository Target="FactionColor">
         <File>Simulation/FactionColor.xml</File>
       </Repository>
       <Repository Target="FactionTrait">
+        <File>Simulation/FactionTraitAutobot.xml</File>
+        <File>Simulation/FactionTraitDecepticon.xml</File>
         <File>Simulation/FactionTrait.xml</File>
       </Repository>
       <Repository Target="FactionTraitEffect">
+        <File>Simulation/FactionTraitAutobot.xml</File>
+        <File>Simulation/FactionTraitDecepticon.xml</File>
         <File>Simulation/FactionTrait.xml</File>
       </Repository>
       <Repository Target="FleetSorting">
@@ -119,7 +124,11 @@
         <File>Simulation/EmpireImprovement.xml</File>
         <File>Simulation/EmpireTraitDescriptor.xml</File>
         <File>Simulation/Faction.xml</File>
+        <File>Simulation/FactionAutobot.xml</File>
+        <File>Simulation/FactionDecepticon.xml</File>
         <File>Simulation/FactionTrait.xml</File>
+        <File>Simulation/FactionTraitAutobot.xml</File>
+        <File>Simulation/FactionTraitDecepticon.xml</File>
         <File>Simulation/FleetSorting.xml</File>
         <File>Simulation/FleetTargeting.xml</File>
         <File>Simulation/Gui.xml</File>
@@ -192,6 +201,8 @@
       <Repository Target="ShipDesign">
         <File>Simulation/ShipDesign.xml</File>
         <File>Simulation/CivilianShipDesign.xml</File>
+        <File>Simulation/ShipDesignAutobot.xml</File>
+        <File>Simulation/ShipDesignDecepticon.xml</File>
       </Repository>
       <Repository Target="ShipDesignTemplate">
         <File>AI/ShipDesignAmoeba.xml</File>

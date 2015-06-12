@@ -88,6 +88,18 @@
       <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyT41AutomatonSmall"/>
     </Gui>
   </Technology>
+  <Technology Name="TechT41Autobot" Cost="130" IsUnique="true" X="0" Y="2" Category="DiplomacyTrade">
+    <Descriptors />
+    <PathsPrerequisites>$(AffinityAutobot)</PathsPrerequisites>
+    <TechnologiesPrerequisites></TechnologiesPrerequisites>
+    <TechnologiesDependencies>TechT02;TechT01</TechnologiesDependencies>
+    <Unlockable Name="StarSystemImprovementHabitat4Automaton" Access="Standard" />
+    <Gui>
+      <Title>%TechT41AutomatonTitle</Title>
+      <Description>%TechT41AutomatonDescription</Description>
+      <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyT41AutomatonSmall"/>
+    </Gui>
+  </Technology>
 
   <!-- NEW UNIQUE TECH SWARM -->
   <Technology Name="TechT42Swarm" Cost="130" IsUnique="true" X="0" Y="2" Category="DiplomacyTrade">
@@ -575,6 +587,20 @@
     </Gui>
   </Technology>
 
+  <Technology Name="TechT45Decepticon" Cost="1800" IsUnique="true" X="0" Y="6.75" Category="DiplomacyTrade">
+    <Descriptors />
+    <PathsPrerequisites>$(AffinityDecepticon)</PathsPrerequisites>
+    <TechnologiesPrerequisites></TechnologiesPrerequisites>
+    <TechnologiesDependencies>TechT11</TechnologiesDependencies>
+    <Unlockable Name="EmpireImprovementUniqueHissho2Fake" Access="Standard" />
+    <Unlockable Name="EmpireImprovementUniqueHissho2" Access="Hidden" />
+    <Gui>
+      <Title>%TechT45HisshoTitle</Title>
+      <Description>%TechT45HisshoDescription</Description>
+      <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyT45HisshoSmall"/>
+    </Gui>
+  </Technology>
+
   <Technology Name="TechT52Terran" Cost="1800" IsUnique="true" X="0" Y="6.75" Category="DiplomacyTrade">
     <Descriptors />
     <PathsPrerequisites>$(AffinityTerran)</PathsPrerequisites>
@@ -606,6 +632,18 @@
   <Technology Name="TechT37Automaton" Cost="4000" IsUnique="true" X="0" Y="7" Category="DiplomacyTrade">
     <Descriptors />
     <PathsPrerequisites>$(AffinityAutomaton) and !$(AffinityHarmony)</PathsPrerequisites>
+    <TechnologiesPrerequisites></TechnologiesPrerequisites>
+    <TechnologiesDependencies>TechT11</TechnologiesDependencies>
+    <Unlockable Name="StarSystemImprovementUniqueAutomaton" Access="Standard" />
+    <Gui>
+      <Title>%TechT37AutomatonTitle</Title>
+      <Description>%TechT37AutomatonDescription</Description>
+      <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyT37AutomatonSmall"/>
+    </Gui>
+  </Technology>
+  <Technology Name="TechT37Autobot" Cost="4000" IsUnique="true" X="0" Y="7" Category="DiplomacyTrade">
+    <Descriptors />
+    <PathsPrerequisites>$(AffinityAutobot) and !$(AffinityHarmony)</PathsPrerequisites>
     <TechnologiesPrerequisites></TechnologiesPrerequisites>
     <TechnologiesDependencies>TechT11</TechnologiesDependencies>
     <Unlockable Name="StarSystemImprovementUniqueAutomaton" Access="Standard" />

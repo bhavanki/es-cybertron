@@ -37,6 +37,8 @@
   <SimulationObjectDescriptor Name="AffinityMappingAutomaton" Type="AffinityMapping" Serializable="true" />
   <SimulationObjectDescriptor Name="AffinityMappingHarmony" Type="AffinityMapping" Serializable="true" />
   <SimulationObjectDescriptor Name="AffinityMappingVaulter" Type="AffinityMapping" Serializable="true" />
+  <!-- <SimulationObjectDescriptor Name="AffinityMappingAutobot" Type="AffinityMapping" Serializable="true" /> -->
+  <!--   <SimulationObjectDescriptor Name="AffinityMappingDecepticon" Type="AffinityMapping" Serializable="true" /> -->
   <SimulationObjectDescriptor Name="AffinityAmoeba" Type="Affinity" Serializable="true" />
   <SimulationObjectDescriptor Name="AffinitySophon" Type="Affinity" Serializable="true" />
   <SimulationObjectDescriptor Name="AffinityTerran" Type="Affinity" Serializable="true"/>
@@ -67,6 +69,13 @@
   </SimulationObjectDescriptor>
   <SimulationObjectDescriptor Name="AffinityHarmony" Type="Affinity" Serializable="true" />
   <SimulationObjectDescriptor Name="AffinityVaulter" Type="Affinity" Serializable="true" />
+  <SimulationObjectDescriptor Name="AffinityAutobot" Type="Affinity" Serializable="true">
+    <SimulationObjectPropertyModifierDescriptors>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="OverProductionToStackFactor" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="StackedOverProductionInterestsPerTurn" Value="0.05" OperationType="Percent" Path="ClassEmpire/ClassStarSystem"/>
+    </SimulationObjectPropertyModifierDescriptors>
+  </SimulationObjectDescriptor>
+  <SimulationObjectDescriptor Name="AffinityDecepticon" Type="Affinity" Serializable="true" />
 
   <!-- Following, the descriptors applied by the occasional effects of the affinity "AffinityHissho" -->
   <SimulationObjectDescriptor Name="AffinityHisshoInvasionVictory" Type="AffinityHisshoInvasionVictory" Serializable="false">

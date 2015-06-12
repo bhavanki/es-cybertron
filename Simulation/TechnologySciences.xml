@@ -334,6 +334,18 @@
       <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyA37AutomatonSmall"/>
     </Gui>
   </Technology>
+  <Technology Name="TechA37Autobot" Cost="7500" IsUnique="true" X="2.70" Y="6.5" Category="Sciences">
+    <Descriptors />
+    <PathsPrerequisites>$(AffinityAutobot)</PathsPrerequisites>
+    <TechnologiesPrerequisites></TechnologiesPrerequisites>
+    <TechnologiesDependencies>TechA15</TechnologiesDependencies>
+    <Unlockable Name="EmpireImprovementUniqueAutomaton3" Access="Standard" />
+    <Gui>
+      <Title>%TechA37AutomatonTitle</Title>
+      <Description>%TechA37AutomatonDescription</Description>
+      <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyA37AutomatonSmall"/>
+    </Gui>
+  </Technology>
 
   <!-- Solar Mining -->
   <Technology Name="TechA16" Cost="7500" IsUnique="true" X="-1" Y="6" Category="Sciences">
@@ -353,7 +365,7 @@
   <!-- Infinite Variable Computing -->
   <Technology Name="TechA18" Cost="7500" IsUnique="true" X="1" Y="6" Category="Sciences">
     <Descriptors />
-    <PathsPrerequisites>!$(AffinityAutomaton)</PathsPrerequisites>
+    <PathsPrerequisites>!$(AffinityAutomaton) and !$(AffinityAutobot)</PathsPrerequisites>
     <TechnologiesPrerequisites></TechnologiesPrerequisites>
     <TechnologiesDependencies>TechA14;TechA15</TechnologiesDependencies>
     <Unlockable Name="StarSystemImprovementIndustry3" Access="Standard" />
@@ -367,6 +379,19 @@
   <Technology Name="TechA18Automaton" Cost="7500" IsUnique="true" X="1" Y="6" Category="Sciences">
     <Descriptors />
     <PathsPrerequisites>$(AffinityAutomaton)</PathsPrerequisites>
+    <TechnologiesPrerequisites></TechnologiesPrerequisites>
+    <TechnologiesDependencies>TechA14;TechA15</TechnologiesDependencies>
+    <Unlockable Name="StarSystemImprovementIndustry3Automaton" Access="Standard" />
+    <Unlockable Name="ModuleSupportEngine3" Access="Standard" />
+    <Gui>
+      <Title>%TechA18Title</Title>
+      <Description>%TechA18Description</Description>
+      <Icon Small="Gui/DynamicBitmaps/Technologies/TechnologyA18AutomatonSmall"/>
+    </Gui>
+  </Technology>
+<Technology Name="TechA18Autobot" Cost="7500" IsUnique="true" X="1" Y="6" Category="Sciences">
+    <Descriptors />
+    <PathsPrerequisites>$(AffinityAutobot)</PathsPrerequisites>
     <TechnologiesPrerequisites></TechnologiesPrerequisites>
     <TechnologiesDependencies>TechA14;TechA15</TechnologiesDependencies>
     <Unlockable Name="StarSystemImprovementIndustry3Automaton" Access="Standard" />
@@ -459,7 +484,7 @@
     <Descriptors />
     <PathsPrerequisites>!$(AffinitySower)</PathsPrerequisites>
     <TechnologiesPrerequisites></TechnologiesPrerequisites>
-    <TechnologiesDependencies>TechA18;TechA18Automaton</TechnologiesDependencies>
+    <TechnologiesDependencies>TechA18;TechA18Automaton;TechA18Autobot</TechnologiesDependencies>
     <Unlockable Name="StarSystemImprovementIndustry4" Access="Standard" />
     <Gui>
       <Title>%TechA22Title</Title>
@@ -489,7 +514,7 @@
     <Descriptors />
     <PathsPrerequisites></PathsPrerequisites>
     <TechnologiesPrerequisites></TechnologiesPrerequisites>
-    <TechnologiesDependencies>TechA17;TechA18;TechA18Automaton</TechnologiesDependencies>
+    <TechnologiesDependencies>TechA17;TechA18;TechA18Automaton;TechA18Autobot</TechnologiesDependencies>
     <Unlockable Name="ModMiniaturization3" Access="Standard" />
     <Unlockable Name="PlanetStrategicResourceAdamantium" Access="Standard" />
     <Gui>
