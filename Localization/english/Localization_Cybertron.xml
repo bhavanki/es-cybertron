@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- AUTOBOT CUSTOM FACTION -->
+
+  <LocalizationPair Name="%FactionNameBotTitle">AUTOBOTS</LocalizationPair>
+  <LocalizationPair Name="%FactionNameAutobotDescription">A valiant, hardworking, and honorable race of mechanical beings from the planet Cybertron.</LocalizationPair>
+  <LocalizationPair Name="%FactionBotDescription">Home Planet Type: Barren
+Diplomatic Alignment: Good
+Gameplay: Peaceful and Isolationist
+Main Victory Type: Economic/Diplomatic
+ 
+Descended from a labor class of autonomous cybernetic organisms, the Autobots retain a sense of honor, a strong work ethic, and a dedication to order and justice. They have battled for millennia with the Decepticons and have become hardened warriors through the process, yet still with a sense of optimism and hope.
+ 
+The Autobots, led by the heroic Optimus Prime, have found themselves stranded on a new, mysterious planet, while attempting to stop an experiment being conducted by the calculating and power-hungry Decepticon Shockwave. They are unsure how they arrived, but they will seek out how they might return to their home planet and resume their struggle.</LocalizationPair>
+
+  <LocalizationPair Name="%AffinityAutobotTitle">Autobot Affinity</LocalizationPair>
+  <LocalizationPair Name="%AffinityAutobotDescription">Provides a basic set of faction traits similar to the Autobots</LocalizationPair>
+
+  <LocalizationPair Name="%ScoutAutobotDesign">Scout</LocalizationPair>
+  <LocalizationPair Name="%DefenderAutobotDesign">Patroller</LocalizationPair>
+  <LocalizationPair Name="%SuperDefenderAutobotDesign">Advanced Patroller</LocalizationPair>
+  <LocalizationPair Name="%AdvancedDefenderAutobotDesign">Elite Patroller</LocalizationPair>
+  <LocalizationPair Name="%ColonyShipAutobotDesign">Ark</LocalizationPair>
+
+  <!-- DECEPTICON CUSTOM FACTION -->
+
+  <LocalizationPair Name="%FactionNameConTitle">DECEPTICONS</LocalizationPair>
+  <LocalizationPair Name="%FactionNameDecepticonDescription">Ruthless, warlike mechanical beings from the planet Cybertron, bent on universal conquest.</LocalizationPair>
+  <LocalizationPair Name="%FactionConDescription">Home Planet Type: Lava
+Diplomatic Alignment: Evil
+Gameplay: Conquest, Glory
+Main Victory Type: Military/Population
+ 
+The Decepticons are led by the ruthless and charismatic Megatron, a former miner turned gladiator turned rebel turned conqueror. While the Decepticon movement originally spawned from a repressed class of autonomous, cybernetic beings in order to seek justice and equality, their cause eventually turned to the destruction of their enemies and the spread of their form of life, and rule, across the universe.
+ 
+Shockwave, a calculating and dangerous Decepticon, was running an experiment in quantum reality manipulation when a host of Autobots, sworn enemies of the Decepticons, invaded in an attempt to stop the experiment. Damage to the quantum manipulation equipment appears to have transported the Decepticons to a new and unforgiving planet. After gathering themselves together, they have quickly resolved to explore their new environment, exploit it, and resume their dominating ways.</LocalizationPair>
+
+  <LocalizationPair Name="%AffinityDecepticonTitle">Decepticon Affinity</LocalizationPair>
+  <LocalizationPair Name="%AffinityDecepticonDescription">Provides a basic set of faction traits similar to the Decepticons</LocalizationPair>
+
+  <LocalizationPair Name="%AffinityDecepticonTooltipEffect1">BATTLE SYNERGY:</LocalizationPair>
+  <LocalizationPair Name="%AffinityDecepticonTooltipEffect2">       • +5% WEAPON DAMAGE ON ALL FLEETS FOR EACH SPACE BATTLE WON (FOR 15 TURNS).</LocalizationPair>
+  <LocalizationPair Name="%AffinityDecepticonTooltipEffect3">CONQUERORS:</LocalizationPair>
+  <LocalizationPair Name="%AffinityDecepticonTooltipEffect4">
+       • +15% FID ON ALL SYSTEMS FOR EACH INVASION VICTORY (FOR 45 TURNS).</LocalizationPair>
+  <LocalizationPair Name="%AffinityDecepticonTooltipEffect5">THESE BONUSES CAN STACK.</LocalizationPair>
+
+  <LocalizationPair Name="%ScoutDecepticonDesign">Lurker</LocalizationPair>
+  <LocalizationPair Name="%DefenderDecepticonDesign">Cruiser</LocalizationPair>
+  <LocalizationPair Name="%SuperDefenderDecepticonDesign">Advanced Cruiser</LocalizationPair>
+  <LocalizationPair Name="%AdvancedDefenderDecepticonDesign">Elite Cruiser</LocalizationPair>
+  <LocalizationPair Name="%ColonyShipDecepticonDesign">Sparkship</LocalizationPair>
+
+</Datatable>
