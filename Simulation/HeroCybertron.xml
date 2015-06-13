@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Hero Name="Hero101" LastName="Jazz" FirstName="Autobot">
+    <Gui>
+      <Title/>
+      <Description>%Hero101Description</Description>
+      <Icon Small="Gui/CustomHeroes/jazzsmall" Large="Gui/CustomHeroes/jazzlarge" Wide="Gui/CustomHeroes/jazzwide"/>
+    </Gui>
+    <Level>1</Level>
+    <Descriptors>Corporate;Adventurer</Descriptors>
+    <Attributes>Labor=0;Wit=5;Melee=7;Offense=1;Defense=2</Attributes>
+  </Hero>
+
+  <Hero Name="Hero121" LastName="Swindle" FirstName="Decepticon">
+    <Gui>
+      <Title/>
+      <Description>%Hero121Description</Description>
+      <Icon Small="Gui/CustomHeroes/swindlesmall" Large="Gui/CustomHeroes/swindlelarge" Wide="Gui/CustomHeroes/swindlewide"/>
+    </Gui>
+    <Level>1</Level>
+    <Descriptors>Corporate;Administrator</Descriptors>
+    <Attributes>Labor=2;Wit=8;Melee=1;Offense=2;Defense=2</Attributes>
+  </Hero>      
+
+</Datatable>

@@ -133,6 +133,7 @@
         <File>Simulation/FleetTargeting.xml</File>
         <File>Simulation/Gui.xml</File>
         <File>Simulation/Hero.xml</File>
+        <File>Simulation/HeroCybertron.xml</File>
         <File>Simulation/HeroAbility.xml</File>
         <File>Simulation/HeroDescriptor.xml</File>
         <File>Simulation/Hull.xml</File>
@@ -151,6 +152,7 @@
       </Repository>
       <Repository Target="Hero">
         <File>Simulation/Hero.xml</File>
+        <File>Simulation/HeroCybertron.xml</File>
       </Repository>
       <Repository Target="HeroClass">
         <File>Simulation/Hero.xml</File>
