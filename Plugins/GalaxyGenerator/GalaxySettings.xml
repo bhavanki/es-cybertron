@@ -583,12 +583,13 @@
       </HomePlanet>
       <OtherPlanets>
         <OverrideType Probability="1">
-          <Type Name="PlanetTypeArid" Weight="1"/>
+          <Type Name="PlanetTypeOcean" Weight="1"/>
+          <Type Name="PlanetTypeArid" Weight="3"/>
           <Type Name="PlanetTypeTundra" Weight="3"/>
           <Type Name="PlanetTypeDesert" Weight="3"/>
           <Type Name="PlanetTypeArctic" Weight="3"/>
           <Type Name="PlanetTypeBarren" Weight="1"/>
-          <Type Name="PlanetTypeAsteroids" Weight="3"/>
+          <Type Name="PlanetTypeAsteroids" Weight="1"/>
           <Type Name="PlanetTypeLava" Weight="3"/>
           <Type Name="PlanetTypeGasHydrogen" Weight="1"/>
           <Type Name="PlanetTypeGasHelium" Weight="1"/>
@@ -627,12 +628,13 @@
       </HomePlanet>
       <OtherPlanets>
         <OverrideType Probability="1">
+          <Type Name="PlanetTypeJungle" Weight="1"/>
           <Type Name="PlanetTypeArid" Weight="3"/>
-          <Type Name="PlanetTypeTundra" Weight="1"/>
+          <Type Name="PlanetTypeTundra" Weight="3"/>
           <Type Name="PlanetTypeDesert" Weight="3"/>
           <Type Name="PlanetTypeArctic" Weight="3"/>
           <Type Name="PlanetTypeBarren" Weight="3"/>
-          <Type Name="PlanetTypeAsteroids" Weight="3"/>
+          <Type Name="PlanetTypeAsteroids" Weight="1"/>
           <Type Name="PlanetTypeLava" Weight="1"/>
           <Type Name="PlanetTypeGasHydrogen" Weight="1"/>
           <Type Name="PlanetTypeGasHelium" Weight="1"/>
