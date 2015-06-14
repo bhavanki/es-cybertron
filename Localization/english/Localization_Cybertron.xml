@@ -57,4 +57,10 @@ Shockwave, a calculating and dangerous Decepticon, was running an experiment in 
   <LocalizationPair Name="%Hero101Description">A high-ranking and friendly Autobot officer, Jazz is a rabid consumer of culture as well as a deft warrior and spy. He volunteered to explore the galaxy to make contact with other cultures and gather intelligence for the Autobots, and decided he should make himself useful at the same time.</LocalizationPair>
   <LocalizationPair Name="%Hero121Description">Swindle joined up with the Decepticon cause not so much for the conquest and principles, but for the rich variety of financial opportunities, above board and otherwise, that membership opened up for him. After millions of years of experience, he has become an expert at business dealings, and running a colony is just another path to riches for him.</LocalizationPair>
 
+  <!-- CUSTOM TRAITS -->
+
+  <LocalizationPair Name="%TraitPopulation101NormTitle">Energon Conversion</LocalizationPair>
+  <LocalizationPair Name="%TraitPopulation101NormDescription">Gives a Food bonus on planets with low Food production</LocalizationPair>
+
+
 </Datatable>

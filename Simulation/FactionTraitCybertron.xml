@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Trait Name="TraitPopulation101Norm1" Root="TraitPopulation101Norm" Family="TraitPopulation" Level="1" Cost="5">
+    <Descriptors>TraitPopulation101Norm1</Descriptors>
+    <Gui>
+      <Title>%TraitPopulation101NormTitle</Title>
+      <Description>%TraitPopulation101NormDescription</Description>
+      <Icon/>
+    </Gui>
+  </Trait>
+
+</Datatable>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Energon Conversion -->
+
+  <SimulationObjectDescriptor Name="TraitPopulation101Norm1" Type="TraitPopulation101" Serializable="true">
+    <SimulationObjectPropertyModifierDescriptors>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="Food" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeDesert"          IsBase="true"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="Food" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeArctic"      IsBase="true"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="Food" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeLava"            IsBase="true"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="Food" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeBarren"      IsBase="true"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="Food" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeAsteroids"       IsBase="true"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="Food" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeGasHydrogen"     IsBase="true"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="Food" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeGasHelium"       IsBase="true"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="Food" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeGasMethane"  IsBase="true"/>
+    </SimulationObjectPropertyModifierDescriptors>
+    <SimulationObjectPropertyDescriptors />
+  </SimulationObjectDescriptor>
+
+</Datatable>

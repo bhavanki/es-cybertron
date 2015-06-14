@@ -92,11 +92,13 @@
       </Repository>
       <Repository Target="FactionTrait">
         <File>Simulation/FactionTraitAutobot.xml</File>
+        <File>Simulation/FactionTraitCybertron.xml</File>
         <File>Simulation/FactionTraitDecepticon.xml</File>
         <File>Simulation/FactionTrait.xml</File>
       </Repository>
       <Repository Target="FactionTraitEffect">
         <File>Simulation/FactionTraitAutobot.xml</File>
+        <File>Simulation/FactionTraitCybertron.xml</File>
         <File>Simulation/FactionTraitDecepticon.xml</File>
         <File>Simulation/FactionTrait.xml</File>
       </Repository>
@@ -123,11 +125,13 @@
         <File>Simulation/DiplomaticStatus.xml</File>
         <File>Simulation/EmpireImprovement.xml</File>
         <File>Simulation/EmpireTraitDescriptor.xml</File>
+        <File>Simulation/EmpireTraitDescriptorCybertron.xml</File>
         <File>Simulation/Faction.xml</File>
         <File>Simulation/FactionAutobot.xml</File>
         <File>Simulation/FactionDecepticon.xml</File>
         <File>Simulation/FactionTrait.xml</File>
         <File>Simulation/FactionTraitAutobot.xml</File>
+        <File>Simulation/FactionTraitCybertron.xml</File>
         <File>Simulation/FactionTraitDecepticon.xml</File>
         <File>Simulation/FleetSorting.xml</File>
         <File>Simulation/FleetTargeting.xml</File>
@@ -228,6 +232,7 @@
         <File>Simulation/BattleDescriptor.xml</File>
         <File>Simulation/EmpireDescriptor.xml</File>
         <File>Simulation/EmpireTraitDescriptor.xml</File>
+        <File>Simulation/EmpireTraitDescriptorCybertron.xml</File>
         <File>Simulation/GameDifficultyDescriptor.xml</File>
         <File>Simulation/GameSpeedDescriptor.xml</File>
         <File>Simulation/HeroDescriptor.xml</File>
