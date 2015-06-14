@@ -10,8 +10,7 @@
     </Gui>
     <Affinity>AffinityDecepticon</Affinity>
     <AffinityMapping>AffinityMappingHissho</AffinityMapping>
-    <!--  [Tech1:Kinetic2]     [Evil]       [Ano: Huygens Rings]       Revenge+2              Snipers+3           Deadly weapons+3      Mast.destruction+2  Death.dishonor+2    Scientists-2 -->
-    <Traits>TraitTechG01;TraitAlignmentEvil;TraitAnomaly06Norm1;TraitDefense04Norm2;TraitSpaceBattle02Norm3;TraitSpaceBattle03Norm3;TraitBuilding03Norm2;TraitHero04Norm2;TraitScience01Alt2</Traits>
+    <Traits>TraitAlignmentEvil;TraitAnomaly02Norm2;TraitBuilding03Norm1;TraitDefense02Norm1;TraitEconomy01Norm1;TraitFleet01Norm1;TraitFleet02Norm1;TraitFleet05Norm2;TraitHero02Alt1;TraitPopulation101Norm1;TraitSpaceBattle03Norm2;TraitTechA02</Traits>
   </Faction>
 
 </Datatable>

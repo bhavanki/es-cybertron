@@ -10,7 +10,7 @@
     </Gui>
     <Affinity>AffinityAutobot</Affinity>
     <AffinityMapping>AffinityMappingAutomaton</AffinityMapping>
-<Traits>TraitAlignmentGood;TraitEconomy01Alt1;TraitEconomy02Norm1;TraitAnomaly07Norm1;TraitPopulation03Norm2;TraitPopulation04Norm2;TraitDiplomacy01Norm2;TraitFleet02Alt2;TraitFleet04Norm1;TraitDiplomacy02Norm2;TraitHero01Alt1;TraitDefense01Norm2</Traits>
+    <Traits>TraitAlignmentGood;TraitAnomaly01Norm2;TraitBuilding01Norm1;TraitDefense01Norm2;TraitFleet01Alt1;TraitFleet04Norm2;TraitFleet05Norm2;TraitPopulation03Alt1;TraitPopulation101Norm1;TraitSpaceBattle04Norm2;TraitTechG02</Traits>
   </Faction>
 
 </Datatable>
