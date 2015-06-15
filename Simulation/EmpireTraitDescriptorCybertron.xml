@@ -5,14 +5,32 @@
 
   <SimulationObjectDescriptor Name="TraitPopulation101Norm1" Type="TraitPopulation101" Serializable="true">
     <SimulationObjectPropertyModifierDescriptors>
-      <SimulationObjectPropertyModifierDescriptor TargetProperty="Food" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeDesert"          IsBase="true"/>
-      <SimulationObjectPropertyModifierDescriptor TargetProperty="Food" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeArctic"      IsBase="true"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="Food" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeLava"            IsBase="true"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="Food" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeBarren"      IsBase="true"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="Food" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeAsteroids"       IsBase="true"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="Food" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeGasHydrogen"     IsBase="true"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="Food" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeGasHelium"       IsBase="true"/>
       <SimulationObjectPropertyModifierDescriptor TargetProperty="Food" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeGasMethane"  IsBase="true"/>
+
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="Industry" Value="1" OperationType="Soustraction" Path="ClassEmpire/ClassStarSystem/PlanetTypeLava"      IsBase="true"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="Industry" Value="1" OperationType="Soustraction" Path="ClassEmpire/ClassStarSystem/PlanetTypeBarren"      IsBase="true"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="Industry" Value="1" OperationType="Soustraction" Path="ClassEmpire/ClassStarSystem/PlanetTypeAsteroids"      IsBase="true"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="Industry" Value="1" OperationType="Soustraction" Path="ClassEmpire/ClassStarSystem/PlanetTypeGasHydrogen"      IsBase="true"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="Industry" Value="1" OperationType="Soustraction" Path="ClassEmpire/ClassStarSystem/PlanetTypeGasHelium"      IsBase="true"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="Industry" Value="1" OperationType="Soustraction" Path="ClassEmpire/ClassStarSystem/PlanetTypeGasMethane"      IsBase="true"/>
+
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="Money" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeLava"      IsBase="true"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="MoneyToConvert" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeLave"       IsBase="true" TooltipVisibility="false"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="Money" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeBarren"      IsBase="true"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="MoneyToConvert" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeBarren"       IsBase="true" TooltipVisibility="false"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="Money" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeAsteroids"      IsBase="true"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="MoneyToConvert" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeAsteroids"       IsBase="true" TooltipVisibility="false"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="Money" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeGasHydrogen"      IsBase="true"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="MoneyToConvert" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeGasHydrogen"       IsBase="true" TooltipVisibility="false"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="Money" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeGasHelium"      IsBase="true"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="MoneyToConvert" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeGasHelium"       IsBase="true" TooltipVisibility="false"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="Money" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeGasMethane"      IsBase="true"/>
+      <SimulationObjectPropertyModifierDescriptor TargetProperty="MoneyToConvert" Value="1" OperationType="Addition" Path="ClassEmpire/ClassStarSystem/PlanetTypeGasMethane"       IsBase="true" TooltipVisibility="false"/>
     </SimulationObjectPropertyModifierDescriptors>
     <SimulationObjectPropertyDescriptors />
   </SimulationObjectDescriptor>
