@@ -11,9 +11,9 @@ Current features:
 
 Planned features:
 
-* custom Cybertronian heroes
-* differentiation of custom factions from their base factions: technology,
-  personality, etc.
+* more custom Cybertronian heroes
+* better differentiation of custom factions from their base factions:
+  technology, etc.
 
 ## Prerequisites
 

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Mod Name="Cybertron" Guid="D69B7941-D645-4B8A-B684-59295DD4FE6C" Standalone="true">
+<Mod Name="Cybertron" Guid="D69B7941-D645-4B8A-B684-59295DD4FE6C" Standalone="false">
 
   <Version Major="0" Minor="1" Revision="0" Serial="0" />
   <MinimumRequiredGameVersion Major="1" Minor="0" Revision="0" Serial="0" />
@@ -212,7 +212,9 @@
       </Repository>
       <Repository Target="ShipDesignTemplate">
         <File>AI/ShipDesignAmoeba.xml</File>
+        <File>AI/ShipDesignAutobot.xml</File>
         <File>AI/ShipDesignAutomaton.xml</File>
+        <File>AI/ShipDesignDecepticon.xml</File>
         <File>AI/ShipDesignEmperor.xml</File>
         <File>AI/ShipDesignHarmony.xml</File> 
         <File>AI/ShipDesignHissho.xml</File>
